@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0091D8F90E81B9330029341E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0091D8F80E81B9330029341E /* OpenGL.framework */; };
+		00B784B30FF439BC000DE1D7 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784AF0FF439BC000DE1D7 /* Accelerate.framework */; };
+		00B784B40FF439BC000DE1D7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */; };
+		00B784B50FF439BC000DE1D7 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B10FF439BC000DE1D7 /* AudioUnit.framework */; };
+		00B784B60FF439BC000DE1D7 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B20FF439BC000DE1D7 /* CoreAudio.framework */; };
+		1D02AD0CC4F1483C9516E2BF /* CinderApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = F8D189FAF58A4CB6AFF700A9 /* CinderApp.icns */; };
+		225E2D11EDC5405FBEEE7191 /* sha1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 964B3D2E6B484021A1222DF1 /* sha1.cpp */; };
+		249D2560371E46A79E6B4636 /* OscBundle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C042D8F1ECC49ACB710FC36 /* OscBundle.cpp */; };
+		2E7B2665583447F3B227C323 /* OscReceivedElements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6160CB7A82CC43C4A3E57BF6 /* OscReceivedElements.cpp */; };
+		2FB16F89A96343B5BA7AE53E /* OscPrintReceivedElements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2B04C20F61046518478D53C /* OscPrintReceivedElements.cpp */; };
+		355B03114A764597A7EFB995 /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1693AB4C7714D2EB9231EED /* QuickTime.framework */; };
+		3CFFCE445C3C4D8CB0D2D119 /* KuafuApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E31FBF4BDC484127A5472131 /* KuafuApp.cpp */; };
+		441493D400364552941D64E2 /* WebSocketClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DBC16337DC044A7A925B369 /* WebSocketClient.cpp */; };
+		5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B10EAFCA74003A9687 /* CoreVideo.framework */; };
+		5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B50EAFCA7E003A9687 /* QTKit.framework */; };
+		7D31DD3385714E218587B83F /* OscOutboundPacketStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A728FC9180174BBAA0A2FC90 /* OscOutboundPacketStream.cpp */; };
+		7FB117D3DCE04CB99DCA00F5 /* OscSender.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B80D024B016545C0878B665F /* OscSender.cpp */; };
+		85725A2818C0CC1B00750802 /* ViewMountains.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85725A2618C0CC1B00750802 /* ViewMountains.cpp */; };
+		85725A2A18C0CDE600750802 /* red in Resources */ = {isa = PBXBuildFile; fileRef = 85725A2918C0CDE600750802 /* red */; };
+		857B8CC118CB07C70041A9B7 /* GlobalSettings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 857B8CBF18CB07C70041A9B7 /* GlobalSettings.cpp */; };
+		8581EE2318C50E0E004A5149 /* CameraKuafa.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8581EE2118C50E0E004A5149 /* CameraKuafa.cpp */; };
+		859BC34C18BFEE2A007AC1DF /* SceneKuafu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 859BC34A18BFEE2A007AC1DF /* SceneKuafu.cpp */; };
+		859BC34F18BFF253007AC1DF /* ViewBackground.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 859BC34D18BFF253007AC1DF /* ViewBackground.cpp */; };
+		859BC35218BFF334007AC1DF /* common in Resources */ = {isa = PBXBuildFile; fileRef = 859BC35018BFF334007AC1DF /* common */; };
+		859BC35318BFF334007AC1DF /* shaders in Resources */ = {isa = PBXBuildFile; fileRef = 859BC35118BFF334007AC1DF /* shaders */; };
+		859BC35618BFF8A2007AC1DF /* ViewGround.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 859BC35418BFF8A2007AC1DF /* ViewGround.cpp */; };
+		859BC35918BFFBB2007AC1DF /* MeshUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 859BC35718BFFBB2007AC1DF /* MeshUtils.cpp */; };
+		859BC35C18BFFC02007AC1DF /* ViewSun.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 859BC35A18BFFC02007AC1DF /* ViewSun.cpp */; };
+		85F2E6B118BCD551001E6A8A /* MathUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85F2E6A718BCD551001E6A8A /* MathUtils.cpp */; };
+		85F2E6B218BCD551001E6A8A /* Scene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85F2E6A918BCD551001E6A8A /* Scene.cpp */; };
+		85F2E6B318BCD551001E6A8A /* SceneQuat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85F2E6AB18BCD551001E6A8A /* SceneQuat.cpp */; };
+		85F2E6B418BCD551001E6A8A /* Utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85F2E6AD18BCD551001E6A8A /* Utils.cpp */; };
+		85F2E6B518BCD551001E6A8A /* View.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85F2E6AF18BCD551001E6A8A /* View.cpp */; };
+		85F2E6B918BCD5E4001E6A8A /* GiantModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85F2E6B718BCD5E4001E6A8A /* GiantModel.cpp */; };
+		85F2E6BD18BCDE3D001E6A8A /* Mountain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85F2E6BB18BCDE3D001E6A8A /* Mountain.cpp */; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		9292AC5CB3F34A04BBF5C47F /* OscTypes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F72E91E49E4644B38870C868 /* OscTypes.cpp */; };
+		A489F7B8CAEB487AB57CC647 /* libLeap.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8242A33ADF6A40108DE2AF50 /* libLeap.dylib */; };
+		C8A34E33929A4F87AFF10A08 /* IpEndpointName.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89F74A2610B74DD19CE92824 /* IpEndpointName.cpp */; };
+		CC64349937DB4B31912E319A /* WebSocketConnection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7ADA46D698514CE3B0D3E384 /* WebSocketConnection.cpp */; };
+		D1EB0E78B4F14D759D47886F /* OscMessage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B5BBBB32B4C40B49CF34D75 /* OscMessage.cpp */; };
+		D61B727220CC45E48805B40D /* OscListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FD5F76B7206E434AB4723B39 /* OscListener.cpp */; };
+		DCF62FACCC1645778A19F524 /* UdpSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE374C3525E54E898EE93437 /* UdpSocket.cpp */; };
+		F3C09D25E23F4EEDB3192B6D /* NetworkingUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 080F274B185C4B79B0F8333F /* NetworkingUtils.cpp */; };
+		F59FD7AAD2AD4655B7790272 /* Cinder-LeapMotion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDA8C418F240496DBB0CF22A /* Cinder-LeapMotion.cpp */; };
+		F6C2577BF3AD41E086092B43 /* WebSocketServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB2C32DA82E7429F9716AB93 /* WebSocketServer.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BEBCC20CBC354C1287BC72CC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				A489F7B8CAEB487AB57CC647 /* libLeap.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0091D8F80E81B9330029341E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		00B784AF0FF439BC000DE1D7 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		00B784B10FF439BC000DE1D7 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		00B784B20FF439BC000DE1D7 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		0280E2E433AD4DC7A06570E4 /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Resources.h; path = ../include/Resources.h; sourceTree = "<group>"; };
+		04FD301F57F74960AB234BD8 /* OscArg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OscArg.h; path = ../blocks/OSC/src/OscArg.h; sourceTree = "<group>"; };
+		080F274B185C4B79B0F8333F /* NetworkingUtils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = NetworkingUtils.cpp; path = ../blocks/OSC/src/ip/posix/NetworkingUtils.cpp; sourceTree = "<group>"; };
+		0CE62122F7AE468893A1012E /* close.hpp */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; name = close.hpp; path = "../blocks/Cinder-WebSocketPP/src/websocketpp/close.hpp"; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		108BC64B34F043E396FC70C0 /* base64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = base64.h; path = "../blocks/Cinder-WebSocketPP/src/websocketpp/base64/base64.h"; sourceTree = "<group>"; };
+		15D9137CC9A04D66B9D79FA4 /* IpEndpointName.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IpEndpointName.h; path = ../blocks/OSC/src/ip/IpEndpointName.h; sourceTree = "<group>"; };
+		15FE420A2B30466193907D1C /* client.hpp */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; name = client.hpp; path = "../blocks/Cinder-WebSocketPP/src/websocketpp/client.hpp"; sourceTree = "<group>"; };
+		1C5C5365D065415ABDDFBD44 /* utf8_validator.hpp */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; name = utf8_validator.hpp; path = "../blocks/Cinder-WebSocketPP/src/websocketpp/utf8_validator.hpp"; sourceTree = "<group>"; };
+		28746768827147C59CEF4E4F /* WebSocketConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WebSocketConnection.h; path = "../blocks/Cinder-WebSocketPP/src/WebSocketConnection.h"; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		2DBC16337DC044A7A925B369 /* WebSocketClient.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = WebSocketClient.cpp; path = "../blocks/Cinder-WebSocketPP/src/WebSocketClient.cpp"; sourceTree = "<group>"; };
+		30705886AE7D448CA7AA1DE5 /* Cinder-LeapMotion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Cinder-LeapMotion.h"; path = "../blocks/LeapMotion/src/Cinder-LeapMotion.h"; sourceTree = "<group>"; };
+		31551581C7994987AA5E547C /* OscTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OscTypes.h; path = ../blocks/OSC/src/osc/OscTypes.h; sourceTree = "<group>"; };
+		3FCB018B41AE467999D68770 /* Leap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Leap.h; path = ../blocks/LeapMotion/src/Leap.h; sourceTree = "<group>"; };
+		44830BFCE1CD49759A8403D3 /* connection_base.hpp */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; name = connection_base.hpp; path = "../blocks/Cinder-WebSocketPP/src/websocketpp/connection_base.hpp"; sourceTree = "<group>"; };
+		45988DD58C1A42ECAF303BAC /* NetworkingUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NetworkingUtils.h; path = ../blocks/OSC/src/ip/NetworkingUtils.h; sourceTree = "<group>"; };
+		4E806321DF2F4344A6A4B9F0 /* OscHostEndianness.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OscHostEndianness.h; path = ../blocks/OSC/src/osc/OscHostEndianness.h; sourceTree = "<group>"; };
+		51F751F0D15A4BCAAF53823F /* uri.hpp */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; name = uri.hpp; path = "../blocks/Cinder-WebSocketPP/src/websocketpp/uri.hpp"; sourceTree = "<group>"; };
+		5323E6B10EAFCA74003A9687 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
+		5323E6B50EAFCA7E003A9687 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
+		56D8793436324FBD8F115855 /* common.hpp */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; name = common.hpp; path = "../blocks/Cinder-WebSocketPP/src/websocketpp/common.hpp"; sourceTree = "<group>"; };
+		59E7C464EF0B4D22BB5D3523 /* frame.hpp */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; name = frame.hpp; path = "../blocks/Cinder-WebSocketPP/src/websocketpp/frame.hpp"; sourceTree = "<group>"; };
+		5A5AAB82560A4BE2A780F8EC /* md5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = md5.h; path = "../blocks/Cinder-WebSocketPP/src/websocketpp/md5/md5.h"; sourceTree = "<group>"; };
+		6160CB7A82CC43C4A3E57BF6 /* OscReceivedElements.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = OscReceivedElements.cpp; path = ../blocks/OSC/src/osc/OscReceivedElements.cpp; sourceTree = "<group>"; };
+		65E3211C48344777A936206D /* OscBundle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OscBundle.h; path = ../blocks/OSC/src/OscBundle.h; sourceTree = "<group>"; };
+		661F5889EA6A4E939BD94D9D /* OscMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OscMessage.h; path = ../blocks/OSC/src/OscMessage.h; sourceTree = "<group>"; };
+		6C8FE9485DF5471BB9AAD5B6 /* UdpSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = UdpSocket.h; path = ../blocks/OSC/src/ip/UdpSocket.h; sourceTree = "<group>"; };
+		6D130CA1431544678CE104F1 /* MessageMappingOscPacketListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MessageMappingOscPacketListener.h; path = ../blocks/OSC/src/osc/MessageMappingOscPacketListener.h; sourceTree = "<group>"; };
+		75F27BD8659F4D5F87152347 /* Kuafu_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = Kuafu_Prefix.pch; sourceTree = "<group>"; };
+		7ADA46D698514CE3B0D3E384 /* WebSocketConnection.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = WebSocketConnection.cpp; path = "../blocks/Cinder-WebSocketPP/src/WebSocketConnection.cpp"; sourceTree = "<group>"; };
+		81B9FC4F985640FAB041A523 /* WebSocketClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WebSocketClient.h; path = "../blocks/Cinder-WebSocketPP/src/WebSocketClient.h"; sourceTree = "<group>"; };
+		8242A33ADF6A40108DE2AF50 /* libLeap.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libLeap.dylib; path = ../blocks/LeapMotion/lib/macosx/libLeap.dylib; sourceTree = "<group>"; };
+		85725A2618C0CC1B00750802 /* ViewMountains.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ViewMountains.cpp; path = ../src/ViewMountains.cpp; sourceTree = "<group>"; };
+		85725A2718C0CC1B00750802 /* ViewMountains.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewMountains.h; path = ../src/ViewMountains.h; sourceTree = "<group>"; };
+		85725A2918C0CDE600750802 /* red */ = {isa = PBXFileReference; lastKnownFileType = folder; name = red; path = ../assets/red; sourceTree = "<group>"; };
+		857B8CBF18CB07C70041A9B7 /* GlobalSettings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GlobalSettings.cpp; path = ../src/model/GlobalSettings.cpp; sourceTree = "<group>"; };
+		857B8CC018CB07C70041A9B7 /* GlobalSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GlobalSettings.h; path = ../src/model/GlobalSettings.h; sourceTree = "<group>"; };
+		8581EE2118C50E0E004A5149 /* CameraKuafa.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CameraKuafa.cpp; path = ../src/CameraKuafa.cpp; sourceTree = "<group>"; };
+		8581EE2218C50E0E004A5149 /* CameraKuafa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CameraKuafa.h; path = ../src/CameraKuafa.h; sourceTree = "<group>"; };
+		859BC34A18BFEE2A007AC1DF /* SceneKuafu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SceneKuafu.cpp; path = ../src/SceneKuafu.cpp; sourceTree = "<group>"; };
+		859BC34B18BFEE2A007AC1DF /* SceneKuafu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SceneKuafu.h; path = ../src/SceneKuafu.h; sourceTree = "<group>"; };
+		859BC34D18BFF253007AC1DF /* ViewBackground.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ViewBackground.cpp; path = ../src/ViewBackground.cpp; sourceTree = "<group>"; };
+		859BC34E18BFF253007AC1DF /* ViewBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewBackground.h; path = ../src/ViewBackground.h; sourceTree = "<group>"; };
+		859BC35018BFF334007AC1DF /* common */ = {isa = PBXFileReference; lastKnownFileType = folder; name = common; path = ../assets/common; sourceTree = "<group>"; };
+		859BC35118BFF334007AC1DF /* shaders */ = {isa = PBXFileReference; lastKnownFileType = folder; name = shaders; path = ../assets/shaders; sourceTree = "<group>"; };
+		859BC35418BFF8A2007AC1DF /* ViewGround.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ViewGround.cpp; path = ../src/ViewGround.cpp; sourceTree = "<group>"; };
+		859BC35518BFF8A2007AC1DF /* ViewGround.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewGround.h; path = ../src/ViewGround.h; sourceTree = "<group>"; };
+		859BC35718BFFBB2007AC1DF /* MeshUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MeshUtils.cpp; sourceTree = "<group>"; };
+		859BC35818BFFBB2007AC1DF /* MeshUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeshUtils.h; sourceTree = "<group>"; };
+		859BC35A18BFFC02007AC1DF /* ViewSun.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ViewSun.cpp; path = ../src/ViewSun.cpp; sourceTree = "<group>"; };
+		859BC35B18BFFC02007AC1DF /* ViewSun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewSun.h; path = ../src/ViewSun.h; sourceTree = "<group>"; };
+		85F2E6A718BCD551001E6A8A /* MathUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MathUtils.cpp; sourceTree = "<group>"; };
+		85F2E6A818BCD551001E6A8A /* MathUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathUtils.h; sourceTree = "<group>"; };
+		85F2E6A918BCD551001E6A8A /* Scene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Scene.cpp; sourceTree = "<group>"; };
+		85F2E6AA18BCD551001E6A8A /* Scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scene.h; sourceTree = "<group>"; };
+		85F2E6AB18BCD551001E6A8A /* SceneQuat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SceneQuat.cpp; sourceTree = "<group>"; };
+		85F2E6AC18BCD551001E6A8A /* SceneQuat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneQuat.h; sourceTree = "<group>"; };
+		85F2E6AD18BCD551001E6A8A /* Utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Utils.cpp; sourceTree = "<group>"; };
+		85F2E6AE18BCD551001E6A8A /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		85F2E6AF18BCD551001E6A8A /* View.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = View.cpp; sourceTree = "<group>"; };
+		85F2E6B018BCD551001E6A8A /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		85F2E6B718BCD5E4001E6A8A /* GiantModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GiantModel.cpp; path = ../src/model/GiantModel.cpp; sourceTree = "<group>"; };
+		85F2E6B818BCD5E4001E6A8A /* GiantModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GiantModel.h; path = ../src/model/GiantModel.h; sourceTree = "<group>"; };
+		85F2E6BB18BCDE3D001E6A8A /* Mountain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Mountain.cpp; path = ../src/model/Mountain.cpp; sourceTree = "<group>"; };
+		85F2E6BC18BCDE3D001E6A8A /* Mountain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Mountain.h; path = ../src/model/Mountain.h; sourceTree = "<group>"; };
+		89F74A2610B74DD19CE92824 /* IpEndpointName.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = IpEndpointName.cpp; path = ../blocks/OSC/src/ip/IpEndpointName.cpp; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Kuafu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kuafu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		904944B1FC2D4D67B8348C46 /* endpoint.hpp */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; name = endpoint.hpp; path = "../blocks/Cinder-WebSocketPP/src/websocketpp/endpoint.hpp"; sourceTree = "<group>"; };
+		940D55CCB04D4F348D7D07B8 /* OscListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OscListener.h; path = ../blocks/OSC/src/OscListener.h; sourceTree = "<group>"; };
+		964B3D2E6B484021A1222DF1 /* sha1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = sha1.cpp; path = "../blocks/Cinder-WebSocketPP/src/websocketpp/sha1/sha1.cpp"; sourceTree = "<group>"; };
+		9B5BBBB32B4C40B49CF34D75 /* OscMessage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = OscMessage.cpp; path = ../blocks/OSC/src/OscMessage.cpp; sourceTree = "<group>"; };
+		9C042D8F1ECC49ACB710FC36 /* OscBundle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = OscBundle.cpp; path = ../blocks/OSC/src/OscBundle.cpp; sourceTree = "<group>"; };
+		9CE52AA869EC4D2FA646D722 /* connection.hpp */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; name = connection.hpp; path = "../blocks/Cinder-WebSocketPP/src/websocketpp/connection.hpp"; sourceTree = "<group>"; };
+		9D82BBF5BB6D46C2BFBC6EF9 /* error_container.hpp */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; name = error_container.hpp; path = "../blocks/Cinder-WebSocketPP/src/websocketpp/error_container.hpp"; sourceTree = "<group>"; };
+		A14B66FD320F43DBB7D8622B /* error.hpp */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; name = error.hpp; path = "../blocks/Cinder-WebSocketPP/src/websocketpp/error.hpp"; sourceTree = "<group>"; };
+		A728FC9180174BBAA0A2FC90 /* OscOutboundPacketStream.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = OscOutboundPacketStream.cpp; path = ../blocks/OSC/src/osc/OscOutboundPacketStream.cpp; sourceTree = "<group>"; };
+		A7A3A48098EC4938BC83576D /* server.hpp */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; name = server.hpp; path = "../blocks/Cinder-WebSocketPP/src/websocketpp/server.hpp"; sourceTree = "<group>"; };
+		A97AEADB78FD4C4E92B2BD23 /* TimerListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TimerListener.h; path = ../blocks/OSC/src/ip/TimerListener.h; sourceTree = "<group>"; };
+		B80D024B016545C0878B665F /* OscSender.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = OscSender.cpp; path = ../blocks/OSC/src/OscSender.cpp; sourceTree = "<group>"; };
+		B87C4CA152B44F059480FD43 /* OscPacketListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OscPacketListener.h; path = ../blocks/OSC/src/osc/OscPacketListener.h; sourceTree = "<group>"; };
+		C3861026EE5D4AF58ED78375 /* OscPrintReceivedElements.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OscPrintReceivedElements.h; path = ../blocks/OSC/src/osc/OscPrintReceivedElements.h; sourceTree = "<group>"; };
+		C528A7B81D7F4009B683D603 /* OscOutboundPacketStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OscOutboundPacketStream.h; path = ../blocks/OSC/src/osc/OscOutboundPacketStream.h; sourceTree = "<group>"; };
+		C87F366F0D844F0AB804EBC1 /* WebSocketServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WebSocketServer.h; path = "../blocks/Cinder-WebSocketPP/src/WebSocketServer.h"; sourceTree = "<group>"; };
+		C8BEFBA961114B5D9E086F03 /* OscSender.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OscSender.h; path = ../blocks/OSC/src/OscSender.h; sourceTree = "<group>"; };
+		CACE8588373941D0B0FEF1BE /* PacketListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PacketListener.h; path = ../blocks/OSC/src/ip/PacketListener.h; sourceTree = "<group>"; };
+		CAD57517EB8F4D82A12CBADD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDA8C418F240496DBB0CF22A /* Cinder-LeapMotion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = "Cinder-LeapMotion.cpp"; path = "../blocks/LeapMotion/src/Cinder-LeapMotion.cpp"; sourceTree = "<group>"; };
+		CE374C3525E54E898EE93437 /* UdpSocket.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = UdpSocket.cpp; path = ../blocks/OSC/src/ip/posix/UdpSocket.cpp; sourceTree = "<group>"; };
+		D1693AB4C7714D2EB9231EED /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = System/Library/Frameworks/QuickTime.framework; sourceTree = SDKROOT; };
+		DB2063D546D84FB5A53ECA7A /* OscReceivedElements.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OscReceivedElements.h; path = ../blocks/OSC/src/osc/OscReceivedElements.h; sourceTree = "<group>"; };
+		DC7618A6C9334130BFDDE7EF /* LeapMath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LeapMath.h; path = ../blocks/LeapMotion/src/LeapMath.h; sourceTree = "<group>"; };
+		E31FBF4BDC484127A5472131 /* KuafuApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = KuafuApp.cpp; path = ../src/KuafuApp.cpp; sourceTree = "<group>"; };
+		EB2C32DA82E7429F9716AB93 /* WebSocketServer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = WebSocketServer.cpp; path = "../blocks/Cinder-WebSocketPP/src/WebSocketServer.cpp"; sourceTree = "<group>"; };
+		F2B04C20F61046518478D53C /* OscPrintReceivedElements.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = OscPrintReceivedElements.cpp; path = ../blocks/OSC/src/osc/OscPrintReceivedElements.cpp; sourceTree = "<group>"; };
+		F31A520DE86144B8B0BB077E /* sha1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = sha1.h; path = "../blocks/Cinder-WebSocketPP/src/websocketpp/sha1/sha1.h"; sourceTree = "<group>"; };
+		F72E91E49E4644B38870C868 /* OscTypes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = OscTypes.cpp; path = ../blocks/OSC/src/osc/OscTypes.cpp; sourceTree = "<group>"; };
+		F8BCDB19ED714DC3A3FAFCAF /* endpoint_base.hpp */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; name = endpoint_base.hpp; path = "../blocks/Cinder-WebSocketPP/src/websocketpp/endpoint_base.hpp"; sourceTree = "<group>"; };
+		F8D189FAF58A4CB6AFF700A9 /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = CinderApp.icns; path = ../resources/CinderApp.icns; sourceTree = "<group>"; };
+		F95C0077D3124E13B7CAD375 /* OscException.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OscException.h; path = ../blocks/OSC/src/osc/OscException.h; sourceTree = "<group>"; };
+		FD5F76B7206E434AB4723B39 /* OscListener.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = OscListener.cpp; path = ../blocks/OSC/src/OscListener.cpp; sourceTree = "<group>"; };
+		FDD1705D9FC44087BAF48950 /* utilities.hpp */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; name = utilities.hpp; path = "../blocks/Cinder-WebSocketPP/src/websocketpp/utilities.hpp"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				0091D8F90E81B9330029341E /* OpenGL.framework in Frameworks */,
+				5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */,
+				5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */,
+				00B784B30FF439BC000DE1D7 /* Accelerate.framework in Frameworks */,
+				00B784B40FF439BC000DE1D7 /* AudioToolbox.framework in Frameworks */,
+				00B784B50FF439BC000DE1D7 /* AudioUnit.framework in Frameworks */,
+				00B784B60FF439BC000DE1D7 /* CoreAudio.framework in Frameworks */,
+				355B03114A764597A7EFB995 /* QuickTime.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01B97315FEAEA392516A2CEA /* Blocks */ = {
+			isa = PBXGroup;
+			children = (
+				5A0C50FD9BAC4DD5B15A5DB2 /* LeapMotion */,
+				FBA35C9F112D427AB6715FE6 /* Cinder-WebSocketPP */,
+				749FE5E6447449AF835EFCB5 /* OSC */,
+			);
+			name = Blocks;
+			sourceTree = "<group>";
+		};
+		080E96DDFE201D6D7F000001 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				E31FBF4BDC484127A5472131 /* KuafuApp.cpp */,
+				859BC34A18BFEE2A007AC1DF /* SceneKuafu.cpp */,
+				859BC34618BFEDFB007AC1DF /* views */,
+				85F2E6B618BCD5D0001E6A8A /* model */,
+				85F2E6A618BCD551001E6A8A /* bongiovi */,
+				8581EE2118C50E0E004A5149 /* CameraKuafa.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00B784AF0FF439BC000DE1D7 /* Accelerate.framework */,
+				00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */,
+				00B784B10FF439BC000DE1D7 /* AudioUnit.framework */,
+				00B784B20FF439BC000DE1D7 /* CoreAudio.framework */,
+				5323E6B50EAFCA7E003A9687 /* QTKit.framework */,
+				5323E6B10EAFCA74003A9687 /* CoreVideo.framework */,
+				0091D8F80E81B9330029341E /* OpenGL.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		11C915C1800D4A0A981F876B /* ip */ = {
+			isa = PBXGroup;
+			children = (
+				89F74A2610B74DD19CE92824 /* IpEndpointName.cpp */,
+				15D9137CC9A04D66B9D79FA4 /* IpEndpointName.h */,
+				45988DD58C1A42ECAF303BAC /* NetworkingUtils.h */,
+				CACE8588373941D0B0FEF1BE /* PacketListener.h */,
+				A97AEADB78FD4C4E92B2BD23 /* TimerListener.h */,
+				6C8FE9485DF5471BB9AAD5B6 /* UdpSocket.h */,
+				82FCC39ADFC94E028BF648E8 /* posix */,
+			);
+			name = ip;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Kuafu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Kuafu */ = {
+			isa = PBXGroup;
+			children = (
+				01B97315FEAEA392516A2CEA /* Blocks */,
+				29B97315FDCFA39411CA2CEA /* Headers */,
+				080E96DDFE201D6D7F000001 /* Source */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = Kuafu;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				85F2E6B818BCD5E4001E6A8A /* GiantModel.h */,
+				85F2E6BC18BCDE3D001E6A8A /* Mountain.h */,
+				0280E2E433AD4DC7A06570E4 /* Resources.h */,
+				859BC35B18BFFC02007AC1DF /* ViewSun.h */,
+				75F27BD8659F4D5F87152347 /* Kuafu_Prefix.pch */,
+				859BC34B18BFEE2A007AC1DF /* SceneKuafu.h */,
+				859BC34E18BFF253007AC1DF /* ViewBackground.h */,
+				859BC35518BFF8A2007AC1DF /* ViewGround.h */,
+				85725A2718C0CC1B00750802 /* ViewMountains.h */,
+				8581EE2218C50E0E004A5149 /* CameraKuafa.h */,
+				857B8CC018CB07C70041A9B7 /* GlobalSettings.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				85725A2918C0CDE600750802 /* red */,
+				859BC35018BFF334007AC1DF /* common */,
+				859BC35118BFF334007AC1DF /* shaders */,
+				F8D189FAF58A4CB6AFF700A9 /* CinderApp.icns */,
+				CAD57517EB8F4D82A12CBADD /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+				D1693AB4C7714D2EB9231EED /* QuickTime.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3219A8B939BD4EE187658C35 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				9C042D8F1ECC49ACB710FC36 /* OscBundle.cpp */,
+				FD5F76B7206E434AB4723B39 /* OscListener.cpp */,
+				9B5BBBB32B4C40B49CF34D75 /* OscMessage.cpp */,
+				B80D024B016545C0878B665F /* OscSender.cpp */,
+				11C915C1800D4A0A981F876B /* ip */,
+				B04619A0D78247B194CC056D /* osc */,
+				04FD301F57F74960AB234BD8 /* OscArg.h */,
+				65E3211C48344777A936206D /* OscBundle.h */,
+				940D55CCB04D4F348D7D07B8 /* OscListener.h */,
+				661F5889EA6A4E939BD94D9D /* OscMessage.h */,
+				C8BEFBA961114B5D9E086F03 /* OscSender.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		5A0C50FD9BAC4DD5B15A5DB2 /* LeapMotion */ = {
+			isa = PBXGroup;
+			children = (
+				6F6C10E235D04F68BF23C871 /* src */,
+				E458988A14BF4D2D9C51FDFE /* lib */,
+			);
+			name = LeapMotion;
+			sourceTree = "<group>";
+		};
+		5C10A665BB0540D9B8D50010 /* websocketpp */ = {
+			isa = PBXGroup;
+			children = (
+				A4053AF16C7749B9AD0FCC75 /* sha1 */,
+				15FE420A2B30466193907D1C /* client.hpp */,
+				0CE62122F7AE468893A1012E /* close.hpp */,
+				56D8793436324FBD8F115855 /* common.hpp */,
+				9CE52AA869EC4D2FA646D722 /* connection.hpp */,
+				44830BFCE1CD49759A8403D3 /* connection_base.hpp */,
+				904944B1FC2D4D67B8348C46 /* endpoint.hpp */,
+				F8BCDB19ED714DC3A3FAFCAF /* endpoint_base.hpp */,
+				A14B66FD320F43DBB7D8622B /* error.hpp */,
+				9D82BBF5BB6D46C2BFBC6EF9 /* error_container.hpp */,
+				59E7C464EF0B4D22BB5D3523 /* frame.hpp */,
+				A7A3A48098EC4938BC83576D /* server.hpp */,
+				51F751F0D15A4BCAAF53823F /* uri.hpp */,
+				1C5C5365D065415ABDDFBD44 /* utf8_validator.hpp */,
+				FDD1705D9FC44087BAF48950 /* utilities.hpp */,
+				AE6A3DEAC6FB4926BB86E5BF /* base64 */,
+				E10950567E964F989981440F /* md5 */,
+			);
+			name = websocketpp;
+			sourceTree = "<group>";
+		};
+		6F6C10E235D04F68BF23C871 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				CDA8C418F240496DBB0CF22A /* Cinder-LeapMotion.cpp */,
+				30705886AE7D448CA7AA1DE5 /* Cinder-LeapMotion.h */,
+				3FCB018B41AE467999D68770 /* Leap.h */,
+				DC7618A6C9334130BFDDE7EF /* LeapMath.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		749FE5E6447449AF835EFCB5 /* OSC */ = {
+			isa = PBXGroup;
+			children = (
+				3219A8B939BD4EE187658C35 /* src */,
+			);
+			name = OSC;
+			sourceTree = "<group>";
+		};
+		82FCC39ADFC94E028BF648E8 /* posix */ = {
+			isa = PBXGroup;
+			children = (
+				080F274B185C4B79B0F8333F /* NetworkingUtils.cpp */,
+				CE374C3525E54E898EE93437 /* UdpSocket.cpp */,
+			);
+			name = posix;
+			sourceTree = "<group>";
+		};
+		859BC34618BFEDFB007AC1DF /* views */ = {
+			isa = PBXGroup;
+			children = (
+				859BC34D18BFF253007AC1DF /* ViewBackground.cpp */,
+				859BC35418BFF8A2007AC1DF /* ViewGround.cpp */,
+				859BC35A18BFFC02007AC1DF /* ViewSun.cpp */,
+				85725A2618C0CC1B00750802 /* ViewMountains.cpp */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		85F2E6A618BCD551001E6A8A /* bongiovi */ = {
+			isa = PBXGroup;
+			children = (
+				85F2E6A718BCD551001E6A8A /* MathUtils.cpp */,
+				85F2E6A818BCD551001E6A8A /* MathUtils.h */,
+				85F2E6A918BCD551001E6A8A /* Scene.cpp */,
+				85F2E6AA18BCD551001E6A8A /* Scene.h */,
+				85F2E6AB18BCD551001E6A8A /* SceneQuat.cpp */,
+				85F2E6AC18BCD551001E6A8A /* SceneQuat.h */,
+				85F2E6AD18BCD551001E6A8A /* Utils.cpp */,
+				85F2E6AE18BCD551001E6A8A /* Utils.h */,
+				85F2E6AF18BCD551001E6A8A /* View.cpp */,
+				85F2E6B018BCD551001E6A8A /* View.h */,
+				859BC35718BFFBB2007AC1DF /* MeshUtils.cpp */,
+				859BC35818BFFBB2007AC1DF /* MeshUtils.h */,
+			);
+			name = bongiovi;
+			path = ../src/bongiovi;
+			sourceTree = "<group>";
+		};
+		85F2E6B618BCD5D0001E6A8A /* model */ = {
+			isa = PBXGroup;
+			children = (
+				85F2E6BA18BCDE2B001E6A8A /* vo */,
+				85F2E6B718BCD5E4001E6A8A /* GiantModel.cpp */,
+				857B8CBF18CB07C70041A9B7 /* GlobalSettings.cpp */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		85F2E6BA18BCDE2B001E6A8A /* vo */ = {
+			isa = PBXGroup;
+			children = (
+				85F2E6BB18BCDE3D001E6A8A /* Mountain.cpp */,
+			);
+			name = vo;
+			sourceTree = "<group>";
+		};
+		A4053AF16C7749B9AD0FCC75 /* sha1 */ = {
+			isa = PBXGroup;
+			children = (
+				964B3D2E6B484021A1222DF1 /* sha1.cpp */,
+				F31A520DE86144B8B0BB077E /* sha1.h */,
+			);
+			name = sha1;
+			sourceTree = "<group>";
+		};
+		ABADA400889E4BEBAB1E5813 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				2DBC16337DC044A7A925B369 /* WebSocketClient.cpp */,
+				7ADA46D698514CE3B0D3E384 /* WebSocketConnection.cpp */,
+				EB2C32DA82E7429F9716AB93 /* WebSocketServer.cpp */,
+				5C10A665BB0540D9B8D50010 /* websocketpp */,
+				81B9FC4F985640FAB041A523 /* WebSocketClient.h */,
+				28746768827147C59CEF4E4F /* WebSocketConnection.h */,
+				C87F366F0D844F0AB804EBC1 /* WebSocketServer.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		AE6A3DEAC6FB4926BB86E5BF /* base64 */ = {
+			isa = PBXGroup;
+			children = (
+				108BC64B34F043E396FC70C0 /* base64.h */,
+			);
+			name = base64;
+			sourceTree = "<group>";
+		};
+		B04619A0D78247B194CC056D /* osc */ = {
+			isa = PBXGroup;
+			children = (
+				A728FC9180174BBAA0A2FC90 /* OscOutboundPacketStream.cpp */,
+				F2B04C20F61046518478D53C /* OscPrintReceivedElements.cpp */,
+				6160CB7A82CC43C4A3E57BF6 /* OscReceivedElements.cpp */,
+				F72E91E49E4644B38870C868 /* OscTypes.cpp */,
+				6D130CA1431544678CE104F1 /* MessageMappingOscPacketListener.h */,
+				F95C0077D3124E13B7CAD375 /* OscException.h */,
+				4E806321DF2F4344A6A4B9F0 /* OscHostEndianness.h */,
+				C528A7B81D7F4009B683D603 /* OscOutboundPacketStream.h */,
+				B87C4CA152B44F059480FD43 /* OscPacketListener.h */,
+				C3861026EE5D4AF58ED78375 /* OscPrintReceivedElements.h */,
+				DB2063D546D84FB5A53ECA7A /* OscReceivedElements.h */,
+				31551581C7994987AA5E547C /* OscTypes.h */,
+			);
+			name = osc;
+			sourceTree = "<group>";
+		};
+		E10950567E964F989981440F /* md5 */ = {
+			isa = PBXGroup;
+			children = (
+				5A5AAB82560A4BE2A780F8EC /* md5.h */,
+			);
+			name = md5;
+			sourceTree = "<group>";
+		};
+		E458988A14BF4D2D9C51FDFE /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				ECF36F70E8004C43BF43E412 /* macosx */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		ECF36F70E8004C43BF43E412 /* macosx */ = {
+			isa = PBXGroup;
+			children = (
+				8242A33ADF6A40108DE2AF50 /* libLeap.dylib */,
+			);
+			name = macosx;
+			sourceTree = "<group>";
+		};
+		FBA35C9F112D427AB6715FE6 /* Cinder-WebSocketPP */ = {
+			isa = PBXGroup;
+			children = (
+				ABADA400889E4BEBAB1E5813 /* src */,
+			);
+			name = "Cinder-WebSocketPP";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Kuafu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Kuafu" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				BEBCC20CBC354C1287BC72CC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kuafu;
+			productInstallPath = "$(HOME)/Applications";
+			productName = Kuafu;
+			productReference = 8D1107320486CEB800E47090 /* Kuafu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Kuafu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Kuafu */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Kuafu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D02AD0CC4F1483C9516E2BF /* CinderApp.icns in Resources */,
+				859BC35218BFF334007AC1DF /* common in Resources */,
+				859BC35318BFF334007AC1DF /* shaders in Resources */,
+				85725A2A18C0CDE600750802 /* red in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CFFCE445C3C4D8CB0D2D119 /* KuafuApp.cpp in Sources */,
+				F59FD7AAD2AD4655B7790272 /* Cinder-LeapMotion.cpp in Sources */,
+				441493D400364552941D64E2 /* WebSocketClient.cpp in Sources */,
+				CC64349937DB4B31912E319A /* WebSocketConnection.cpp in Sources */,
+				F6C2577BF3AD41E086092B43 /* WebSocketServer.cpp in Sources */,
+				225E2D11EDC5405FBEEE7191 /* sha1.cpp in Sources */,
+				249D2560371E46A79E6B4636 /* OscBundle.cpp in Sources */,
+				D61B727220CC45E48805B40D /* OscListener.cpp in Sources */,
+				D1EB0E78B4F14D759D47886F /* OscMessage.cpp in Sources */,
+				7FB117D3DCE04CB99DCA00F5 /* OscSender.cpp in Sources */,
+				C8A34E33929A4F87AFF10A08 /* IpEndpointName.cpp in Sources */,
+				7D31DD3385714E218587B83F /* OscOutboundPacketStream.cpp in Sources */,
+				2FB16F89A96343B5BA7AE53E /* OscPrintReceivedElements.cpp in Sources */,
+				2E7B2665583447F3B227C323 /* OscReceivedElements.cpp in Sources */,
+				9292AC5CB3F34A04BBF5C47F /* OscTypes.cpp in Sources */,
+				F3C09D25E23F4EEDB3192B6D /* NetworkingUtils.cpp in Sources */,
+				DCF62FACCC1645778A19F524 /* UdpSocket.cpp in Sources */,
+				85F2E6B118BCD551001E6A8A /* MathUtils.cpp in Sources */,
+				85F2E6B218BCD551001E6A8A /* Scene.cpp in Sources */,
+				85F2E6B318BCD551001E6A8A /* SceneQuat.cpp in Sources */,
+				85F2E6B418BCD551001E6A8A /* Utils.cpp in Sources */,
+				85F2E6B518BCD551001E6A8A /* View.cpp in Sources */,
+				85F2E6B918BCD5E4001E6A8A /* GiantModel.cpp in Sources */,
+				85F2E6BD18BCDE3D001E6A8A /* Mountain.cpp in Sources */,
+				859BC34C18BFEE2A007AC1DF /* SceneKuafu.cpp in Sources */,
+				859BC34F18BFF253007AC1DF /* ViewBackground.cpp in Sources */,
+				859BC35618BFF8A2007AC1DF /* ViewGround.cpp in Sources */,
+				859BC35918BFFBB2007AC1DF /* MeshUtils.cpp in Sources */,
+				859BC35C18BFFC02007AC1DF /* ViewSun.cpp in Sources */,
+				85725A2818C0CC1B00750802 /* ViewMountains.cpp in Sources */,
+				8581EE2318C50E0E004A5149 /* CameraKuafa.cpp in Sources */,
+				857B8CC118CB07C70041A9B7 /* GlobalSettings.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Kuafu_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "\"../blocks/Cinder-WebSocketPP/lib/macosx\"";
+				OTHER_LDFLAGS = (
+					"\"$(CINDER_PATH)/lib/libcinder_d.a\"",
+					"\"../blocks/Cinder-WebSocketPP/lib/macosx/libboost_random.a\"",
+					"\"../blocks/Cinder-WebSocketPP/lib/macosx/libboost_regex.a\"",
+					../blocks/LeapMotion/lib/macosx/libLeap.dylib,
+				);
+				PRODUCT_NAME = Kuafu;
+				SYMROOT = ./build;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_FAST_MATH = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Kuafu_Prefix.pch;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "\"../blocks/Cinder-WebSocketPP/lib/macosx\"";
+				OTHER_LDFLAGS = (
+					"\"$(CINDER_PATH)/lib/libcinder.a\"",
+					"\"../blocks/Cinder-WebSocketPP/lib/macosx/libboost_random.a\"",
+					"\"../blocks/Cinder-WebSocketPP/lib/macosx/libboost_regex.a\"",
+					../blocks/LeapMotion/lib/macosx/libLeap.dylib,
+				);
+				PRODUCT_NAME = Kuafu;
+				STRIP_INSTALLED_PRODUCT = YES;
+				SYMROOT = ./build;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = i386;
+				CINDER_PATH = ../../../../../../../../Users/yiwenl/Development/Cinder;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/boost\"";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\" ../include ../blocks/LeapMotion/src \"../blocks/Cinder-WebSocketPP/src\" ../blocks/OSC/src ../blocks/QuickTime/include";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = i386;
+				CINDER_PATH = ../../../../../../../../Users/yiwenl/Development/Cinder;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/boost\"";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\" ../include ../blocks/LeapMotion/src \"../blocks/Cinder-WebSocketPP/src\" ../blocks/OSC/src ../blocks/QuickTime/include";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Kuafu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Kuafu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
