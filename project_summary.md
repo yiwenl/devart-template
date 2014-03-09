@@ -1,20 +1,16 @@
 # KUAFU / 夸父
 #### Journey of a Giant
 
-<br>
+
 
 ## Authors
-<br>
 
 - YiWen Lin / https://github.com/yiwenl
 - Bertrand Carrara / https://github.com/bertrandcarrara
 
-<br>
 
 
 ## An interactive story of Kuafu’s myth
-
-<br>
 
 Read the full myth: http://en.wikipedia.org/wiki/Kua_Fu </br>
 
@@ -26,27 +22,28 @@ Our aim is to create this interactive journey through Google Maps, using its top
 
 Our biggest challenge is the visual aspect of the experience. We really want to create an immersive and compelling world.
 
-One of our reference is the game Journey: http://www.youtube.com/watch?v=J-W-WvskODM
+One of our reference is the game Journey: [link](‘http://www.youtube.com/watch?v=J-W-WvskODM', ‘Journey Music’)
 
-<br>
+
 
 ## Set Up
-<br>
 
 The experience will be projected on long panoramic format. In front of it a tablet is set up on a stall that allow user to interact with story.
 
 ![Example Image](project_images/scamps/scamp_3.jpg?raw=true "Example Image")
 
+The tablet will display Google map in which user can track Kuafu’s progression. Through simple interactions user can control the giant route.
 
-The tablet will display Google map in which user can track Kuafu’s progression. Through simple interactions user can control the giant route. <br>
-• Tap to change is route<br> <br>
-![Example Image](project_images/scamps/scamp_1.jpg?raw=true "Example Image") <br>
-• Pinch to zoom in zoom out<br>
-![Example Image](project_images/scamps/scamp_4.jpg?raw=true "Example Image") <br>
-• Rotate to control the camera. <br>
-![Example Image](project_images/scamps/scamp_5.jpg?raw=true "Example Image") <br>
+• Tap to change is route
+![Example Image](project_images/scamps/scamp_1.jpg?raw=true "Example Image")
 
-<br>
+• Pinch to zoom in zoom out
+![Example Image](project_images/scamps/scamp_4.jpg?raw=true "Example Image")
+
+• Rotate to control the camera.
+![Example Image](project_images/scamps/scamp_5.jpg?raw=true "Example Image")
+
+
 The story  will be break into 3 chapters:
 
 #### Chapter 1 The Raise 
@@ -61,12 +58,12 @@ The end of the story,after a certain time Kuafu will fall of exhaustion and beca
 
 #### [ Storyboard coming soon ]
 
-<br>
+
 
 ## Styleframes
 
 Some initial styleframes - more to come soon!
-<br>
-![Example Image](project_images/scamps/Styleframe_1.jpg?raw=true "Example Image") <br>
-![Example Image](project_images/scamps/Styleframe_3.jpg?raw=true "Example Image") <br>
-![Example Image](project_images/scamps/Styleframe_4.jpg?raw=true "Example Image") <br>
+
+![Example Image](project_images/scamps/Styleframe_1.jpg?raw=true "Example Image")
+![Example Image](project_images/scamps/Styleframe_3.jpg?raw=true "Example Image")
+![Example Image](project_images/scamps/Styleframe_4.jpg?raw=true "Example Image")
