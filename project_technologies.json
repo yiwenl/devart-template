@@ -1,13 +1,21 @@
 {
     "technologies": {
+        "languages": [
+            "javascript",
+            "html",
+            "opengl",
+            "c++"
+        ],
         "apis": [
-            "insert apis"
+            "maps"
         ],
         "platforms": [
-            "insert platforms"
+            "Chrome",
+            "OS X"
         ],
         "toolkits": [
-            "insert toolkits"
+            "Node.js",
+            "Socket.io"
         ]
     },
     "themes": [
