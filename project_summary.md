@@ -1,33 +1,72 @@
-# Project Title
-Insert the name of your project
+# KUAFU / 夸父
+#### Journey of a Giant
+
+<br>
 
 ## Authors
-- Insert main author name, surname, github account
-- Insert other author(s) name, surname, github account (one per list element)
+<br>
 
-## Description
-Insert a description containing about 100 to 150 words, including your motivation and the meaning behind your idea and execution. The Judges will be keen to know how your idea pushes the boundaries of code and technology. 
+- YiWen Lin / https://github.com/yiwenl
+- Bertrand Carrara / https://github.com/bertrandcarrara
 
-## Link to Prototype
-NOTE: If your project lives online you can add one or more links here. Make sure you have a stable version of your project running before linking it.
+<br>
 
-[Example Link](http://www.google.com "Example Link")
 
-## Example Code
-NOTE: Wrap your code blocks or any code citation by using ``` like the example below.
-```
-function test() {
-  console.log("Printing a test");
-}
-```
-## Links to External Libraries
- NOTE: You can also use this space to link to external libraries or Github repositories you used on your project.
+## An interactive story of Kuafu’s myth
 
-[Example Link](http://www.google.com "Example Link")
+<br>
 
-## Images & Videos
-NOTE: For additional images you can either use a relative link to an image on this repo or an absolute link to an externally hosted image.
+Read the full myth: http://en.wikipedia.org/wiki/Kua_Fu </br>
 
-![Example Image](project_images/cover.jpg?raw=true "Example Image")
+Our project started from a discussion about myths and their values. We found Kuafu’s myth and both loved it. A powerful story of  a giant that decides to catch the sun to put an end to a drought. A first style frame done for fun quickly turned into a full interactive story. 
 
-https://www.youtube.com/watch?v=30yGOxJJ2PQ
+![Example Image](project_images/scamps/Styleframe_2.jpg?raw=true "Example Image")
+
+Our aim is to create this interactive journey through Google Maps, using its topographic data to render in real time the landscape and to use the Google Map itself as a way to navigate. It's not a game but an explorable story.
+
+Our biggest challenge is the visual aspect of the experience. We really want to create an immersive and compelling world.
+
+One of our reference is the game Journey: http://www.youtube.com/watch?v=J-W-WvskODM
+
+<br>
+
+## Set Up
+<br>
+
+The experience will be projected on long panoramic format. In front of it a tablet is set up on a stall that allow user to interact with story.
+
+![Example Image](project_images/scamps/scamp_3.jpg?raw=true "Example Image")
+
+
+The tablet will display Google map in which user can track Kuafu’s progression. Through simple interactions user can control the giant route. <br>
+• Tap to change is route<br> <br>
+![Example Image](project_images/scamps/scamp_1.jpg?raw=true "Example Image") <br>
+• Pinch to zoom in zoom out<br>
+![Example Image](project_images/scamps/scamp_4.jpg?raw=true "Example Image") <br>
+• Rotate to control the camera. <br>
+![Example Image](project_images/scamps/scamp_5.jpg?raw=true "Example Image") <br>
+
+<br>
+The story  will be break into 3 chapters:
+
+#### Chapter 1 The Raise 
+This is the introduction to the journey. Kuafu wakes up, the sun raises and the mountains erect around him.
+
+####Chapter 2 The Chase 
+Once the introduction done the Giant starts to chase the sun from east to west. This is where user can start exploring the map. Guiding the Giant toward the sun. 
+The landscape surrounding him will be created using the topographic data of Google Map. For example when Kuafu crosses the alp all the mountains will be rendered. Aswell as the mountain will keep other landscape features such as the sea and ocean which Kuafu will swim across.
+
+####Chapter 3 The Fall
+The end of the story,after a certain time Kuafu will fall of exhaustion and became a mountain - Your mountain. After naming your mountain your session will be finished.
+
+#### [ Storyboard coming soon ]
+
+<br>
+
+## Styleframes
+
+Some initial styleframes - more to come soon!
+<br>
+![Example Image](project_images/scamps/Styleframe_1.jpg?raw=true "Example Image") <br>
+![Example Image](project_images/scamps/Styleframe_3.jpg?raw=true "Example Image") <br>
+![Example Image](project_images/scamps/Styleframe_4.jpg?raw=true "Example Image") <br>
