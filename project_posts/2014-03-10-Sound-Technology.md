@@ -3,7 +3,7 @@
 
 ## Pure Data
 
-[Pure Data]('http://puredata.info', 'Pure Data') (or pd for short) is a visual programming language with a node-based syntax, that is widely used for procedural audio (and to a lesser extent, visual) coding. 
+[Pure Data](http://puredata.info, 'Pure Data') (or pd for short) is a visual programming language with a node-based syntax, that is widely used for procedural audio (and to a lesser extent, visual) coding. 
 
 It was chosen for this project (over alternatives such as fmod and SuperCollider) partly because of the rich variety of code examples and modules available from the community, but also because its layout is great for experimentation and just trying things out!
 
