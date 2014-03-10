@@ -15,7 +15,7 @@ In order to communicate with Node.js, we chose OSC as the communication protocol
 
 Live is one of the leading pieces of music production and performance software, and like Pure Data, is great for both experimentation and production.
 
-In recent versions, the developers have opened up the program more and more to external control, including features like Max for Live, which allows Max/MSP (a close relation to Pure Data) code to run within the software, as well as an external Python API, for which people have written excellent wrappers such as [pyLive]('https://github.com/ideoforms/pylive', 'PyLive').
+In recent versions, the developers have opened up the program more and more to external control, including features like Max for Live, which allows Max/MSP (a close relation to Pure Data) code to run within the software, as well as an external Python API, for which people have written excellent wrappers such as [pyLive](https://github.com/ideoforms/pylive, 'PyLive').
 
 
 The intention is to transmit position and camera data from Node.js via OSC to Pure Data, which in addition to producing sounds itself, sends commands to Ableton.

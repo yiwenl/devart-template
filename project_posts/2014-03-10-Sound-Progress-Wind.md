@@ -1,7 +1,7 @@
 #Sound progress - Wind
 
 
-We started out by taking Andy Farnell’s wind Pure Data patch ([link]('http://aspress.co.uk/sd/practical18.php', 'Wind Patch'), which gives us a number of components that total a pretty realistic effect. 
+We started out by taking Andy Farnell’s wind Pure Data patch ([link](http://aspress.co.uk/sd/practical18.php, 'Wind Patch'), which gives us a number of components that total a pretty realistic effect. 
 
 These are buildings (low-end, wideband noise), doorways (smaller band, less stable, more ‘whiney’), branches/wires (high-frequency, unstable), and tree leaves (high volume, more wideband noise). 
 
