@@ -10,12 +10,17 @@
 
 ## An interactive story of Kuafu’s myth
 
+Read the full myth: http://en.wikipedia.org/wiki/Kua_Fu
 
+Our project started from a discussion about myths and their values. We found Kuafu’s myth and both loved it. A powerful story of a giant that decides to catch the sun to put an end to a drought. A first style frame made for fun quickly turned into a full interactive story. 
 
 ![Example Image](project_images/scamps/Styleframe_2.jpg?raw=true "Example Image")
 
+Our aim is to create this interactive journey through Google Maps, using its topographic data to render in real time the landscape and to use the Google Map itself as a way to navigate.
 
+It's not a game but an explorable story.Our biggest challenge is to create our vision, to give life to this compelling and poetic story.
 
+One of our inspiration is the game Journey: [link](‘http://www.youtube.com/watch?v=_mF8KkDiIdk', ‘Journey Music’)
 
 
 
@@ -48,13 +53,3 @@ The landscape surrounding him will be created using the topographic data of Goog
 
 ####Chapter 3 The Fall
 The end of the story,after a certain time Kuafu will fall of exhaustion and became a mountain - Your mountain. After naming your mountain your session will be finished.
-
-#### [ Storyboard coming soon ]
-
-
-## Styleframes
-Some initial styleframes - more to come soon!
-
-![Example Image](project_images/Styleframes/Styleframe_1.jpg?raw=true "Example Image")
-![Example Image](project_images/Styleframes/Styleframe_1.jpg?raw=true "Example Image")
-![Example Image](project_images/Styleframes/Styleframe_1.jpg?raw=true "Example Image")
