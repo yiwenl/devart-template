@@ -1,4 +1,5 @@
-## Styleframes
+# Styleframes
+
 Some initial styleframes - more to come soon!
 
 ![Example Image](project_images/Styleframes/Styleframe_1.jpg?raw=true "Example Image")
