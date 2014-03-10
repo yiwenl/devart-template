@@ -14,7 +14,7 @@ Read the full myth: http://en.wikipedia.org/wiki/Kua_Fu
 
 Our project started from a discussion about myths and their values. We found Kuafu’s myth and both loved it. A powerful story of a giant that decides to catch the sun to put an end to a drought. A first style frame made for fun quickly turned into a full interactive story. 
 
-![Example Image](project_images/scamps/Styleframe_2.jpg?raw=true "Example Image")
+![Example Image](project_images/Styleframes/Styleframe_2.jpg?raw=true "Example Image")
 
 Our aim is to create this interactive journey through Google Maps, using its topographic data to render in real time the landscape and to use the Google Map itself as a way to navigate.
 
