@@ -2,12 +2,10 @@
 #### Journey of a Giant
 
 
-
 ## Authors
 
 - YiWen Lin / https://github.com/yiwenl
 - Bertrand Carrara / https://github.com/bertrandcarrara
-
 
 
 ## An interactive story of Kuafu’s myth
