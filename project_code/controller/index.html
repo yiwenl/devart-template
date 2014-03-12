@@ -54,10 +54,19 @@
 				var styles = [{   "stylers": [      { "visibility": "on" },      { "saturation": -100 },      { "weight": 0.4 }    ]  }];
 				var latlng = new google.maps.LatLng(lat, lng);
 	            var styledMap = new google.maps.StyledMapType(styles,{name: "Styled Map"});  
-	            var myOptions = {zoom:6,center:latlng,mapTypeControlOptions:{mapTypeIds:[google.maps.MapTypeId.ROADMAP]}};
+	            var myOptions = {	zoom:6,
+	            					center:latlng,
+	            					scrollwheel: false,
+	            					panControl: false,
+    								// navigationControl: false,
+    								// mapTypeControl: false,
+    								scaleControl: false,
+	            					mapTypeControlOptions:{mapTypeIds:[google.maps.MapTypeId.ROADMAP]}
+	            				};
 	            this.map = new google.maps.Map(mapCanvas, myOptions);
 	            this.map.mapTypes.set('map_style', styledMap);
 	            this.map.setMapTypeId('map_style');  
+	            this.map.setOptions({draggable: false, panControl:false, scaleContro:false, zoomControl: false, scrollwheel: false, disableDoubleClickZoom: true});
 
 
 	            google.maps.event.addListener(this.map, 'click', function(event) {	placeMarker(event.latLng); });
@@ -85,7 +94,8 @@
 	</head>
 
 	<body onload="init();">
-		<script src="http://localhost:8158/socket.io/socket.io.js"></script>
+		<h1 id="debugField" style="color:blue; z-index:100000; font-family:Arial; font-size:13px; margin:40px; position:absolute;">DEBUG</h1>
+		<script src="http://192.168.1.70:8158/socket.io/socket.io.js"></script>
 		<div id="map_canvas" style="width:100%; height:100%; z-index:1; position:absolute;"></div>
 		<canvas id="overlayCanvas"></canvas>
 	</body>
