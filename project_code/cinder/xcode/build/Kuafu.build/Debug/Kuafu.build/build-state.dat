@@ -7,39 +7,41 @@ cCpResource ../resources/CinderApp.icns ./build/Debug/Kuafu.app/Contents/Resourc
 cCpResource ../assets/common ./build/Debug/Kuafu.app/Contents/Resources/common
 cCpResource ../assets/shaders ./build/Debug/Kuafu.app/Contents/Resources/shaders
 cCpResource ../assets/red ./build/Debug/Kuafu.app/Contents/Resources/red
+cCpResource ../assets/models ./build/Debug/Kuafu.app/Contents/Resources/models
 cProcessPCH++ /var/folders/2r/z8b3t_054ns3yvlbk8637rpr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Kuafu_Prefix-fhozjmhraubjjkcxdxyzclajueui/Kuafu_Prefix.pch.pth Kuafu_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/Cinder-LeapMotion.o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../blocks/LeapMotion/src/Cinder-LeapMotion.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/KuafuApp.o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/KuafuApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/WebSocketClient.o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../blocks/Cinder-WebSocketPP/src/WebSocketClient.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/KuafuApp.o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/KuafuApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/Cinder-LeapMotion.o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../blocks/LeapMotion/src/Cinder-LeapMotion.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/WebSocketServer.o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../blocks/Cinder-WebSocketPP/src/WebSocketServer.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/WebSocketConnection.o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../blocks/Cinder-WebSocketPP/src/WebSocketConnection.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/sha1.o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../blocks/Cinder-WebSocketPP/src/websocketpp/sha1/sha1.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/WebSocketServer.o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../blocks/Cinder-WebSocketPP/src/WebSocketServer.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/OscListener.o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../blocks/OSC/src/OscListener.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/OscBundle.o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../blocks/OSC/src/OscBundle.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/OscMessage.o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../blocks/OSC/src/OscMessage.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/OscSender.o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../blocks/OSC/src/OscSender.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/OscOutboundPacketStream.o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../blocks/OSC/src/osc/OscOutboundPacketStream.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/IpEndpointName.o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../blocks/OSC/src/ip/IpEndpointName.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/OscOutboundPacketStream.o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../blocks/OSC/src/osc/OscOutboundPacketStream.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/OscPrintReceivedElements.o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../blocks/OSC/src/osc/OscPrintReceivedElements.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/OscReceivedElements.o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../blocks/OSC/src/osc/OscReceivedElements.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/NetworkingUtils.o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../blocks/OSC/src/ip/posix/NetworkingUtils.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/OscTypes.o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../blocks/OSC/src/osc/OscTypes.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/MathUtils.o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/bongiovi/MathUtils.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/UdpSocket.o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../blocks/OSC/src/ip/posix/UdpSocket.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/MathUtils.o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/bongiovi/MathUtils.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/Scene.o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/bongiovi/Scene.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/SceneQuat.o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/bongiovi/SceneQuat.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/Utils.o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/bongiovi/Utils.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/View.o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/bongiovi/View.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/GiantModel.o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/model/GiantModel.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/Mountain.o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/model/Mountain.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/GiantModel.o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/model/GiantModel.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/SceneKuafu.o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/SceneKuafu.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/ViewBackground.o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/ViewBackground.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/ViewGround.o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/ViewGround.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/MeshUtils.o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/bongiovi/MeshUtils.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/ViewMountains.o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/ViewMountains.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/CameraKuafa.o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/CameraKuafa.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/ViewSun.o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/ViewSun.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/ViewMountains.o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/ViewMountains.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/GlobalSettings.o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/model/GlobalSettings.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/CameraKuafa.o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/CameraKuafa.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/ViewGiant.o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/ViewGiant.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cLd /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Debug/Kuafu.app/Contents/MacOS/Kuafu normal i386
 cPBXCp ../blocks/LeapMotion/lib/macosx/libLeap.dylib ./build/Debug/Kuafu.app/Contents/MacOS/libLeap.dylib
 cTouch /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Debug/Kuafu.app
@@ -5839,6 +5841,21 @@ c00000000513E9EF40000000000000B52
 t1363058420
 s2898
 
+N/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../../../../../../../../Users/yiwenl/Development/Cinder/boost/boost/tuple/detail/tuple_basic.hpp
+c00000000513E9EF40000000000007E50
+t1363058420
+s32336
+
+N/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../../../../../../../../Users/yiwenl/Development/Cinder/boost/boost/tuple/tuple.hpp
+c00000000513E9EF40000000000000B2C
+t1363058420
+s2860
+
+N/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../../../../../../../../Users/yiwenl/Development/Cinder/boost/boost/tuple/tuple_comparison.hpp
+c00000000513E9EF400000000000015D3
+t1363058420
+s5587
+
 N/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../../../../../../../../Users/yiwenl/Development/Cinder/boost/boost/type.hpp
 c00000000513E9EF400000000000001E1
 t1363058420
@@ -5848,6 +5865,11 @@ N/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../../../../../../.
 c00000000513E9EF400000000000005B1
 t1363058420
 s1457
+
+N/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../../../../../../../../Users/yiwenl/Development/Cinder/boost/boost/type_traits/add_cv.hpp
+c00000000513E9EF400000000000005C2
+t1363058420
+s1474
 
 N/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../../../../../../../../Users/yiwenl/Development/Cinder/boost/boost/type_traits/add_pointer.hpp
 c00000000513E9EF40000000000000693
@@ -5903,6 +5925,11 @@ N/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../../../../../../.
 c00000000513E9EF40000000000000292
 t1363058420
 s658
+
+N/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../../../../../../../../Users/yiwenl/Development/Cinder/boost/boost/type_traits/cv_traits.hpp
+c00000000513E9EF400000000000003E2
+t1363058420
+s994
 
 N/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../../../../../../../../Users/yiwenl/Development/Cinder/boost/boost/type_traits/decay.hpp
 c00000000513E9EF40000000000000536
@@ -6239,6 +6266,11 @@ c00000000513E9EF400000000000008A5
 t1363058420
 s2213
 
+N/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../../../../../../../../Users/yiwenl/Development/Cinder/boost/boost/type_traits/remove_volatile.hpp
+c00000000513E9EF400000000000009DE
+t1363058420
+s2526
+
 N/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../../../../../../../../Users/yiwenl/Development/Cinder/boost/boost/type_traits/type_with_alignment.hpp
 c00000000513E9EF40000000000003261
 t1363058420
@@ -6564,6 +6596,11 @@ c0000000051780B7D00000000000023C0
 t1366821757
 s9152
 
+N/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../../../../../../../../Users/yiwenl/Development/Cinder/include/cinder/ObjLoader.h
+c0000000051780B7D00000000000018A3
+t1366821757
+s6307
+
 N/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../../../../../../../../Users/yiwenl/Development/Cinder/include/cinder/Path2d.h
 c0000000051780B7D0000000000001D25
 t1366821757
@@ -6733,6 +6770,16 @@ N/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../assets/common
 c00000000531B499300000000000000CC
 t1394297235
 s204
+
+N/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../assets/models
+c000000005320688C0000000000000088
+t1394632844
+s136
+
+N/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../assets/models/kuafuModel.obj
+c000000005320646200000000003539E7
+t1394631778
+s3488231
 
 N/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../assets/red
 c0000000052CAB84D00000000000003DA
@@ -7305,14 +7352,14 @@ t1393335716
 s459637
 
 N/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/CameraKuafa.cpp
-c00000000531ACE770000000000000495
-t1394265719
-s1173
+c00000000531F8BDB00000000000004DC
+t1394576347
+s1244
 
 N/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/CameraKuafa.h
-c00000000531ACCAB0000000000000376
-t1394265259
-s886
+c00000000531F8BB2000000000000039D
+t1394576306
+s925
 
 N/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/KuafuApp.cpp
 c00000000531AD5510000000000000BC3
@@ -7320,14 +7367,14 @@ t1394267473
 s3011
 
 N/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/SceneKuafu.cpp
-c00000000531C98250000000000000958
-t1394382885
-s2392
+c00000000532068BE00000000000009A2
+t1394632894
+s2466
 
 N/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/SceneKuafu.h
-c00000000531B49E5000000000000048E
-t1394297317
-s1166
+c000000005320674A00000000000004CA
+t1394632522
+s1226
 
 N/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/SceneKuau.cpp
 c00000000530FB6970000000000000064
@@ -7343,6 +7390,16 @@ N/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/ViewBackgrou
 c00000000530FBAEA0000000000000210
 t1393539818
 s528
+
+N/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/ViewGiant.cpp
+c00000000532068A70000000000000273
+t1394632871
+s627
+
+N/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/ViewGiant.h
+c00000000532066BD0000000000000219
+t1394632381
+s537
 
 N/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/ViewGround.cpp
 c000000005310DE270000000000000612
@@ -7435,9 +7492,9 @@ t1389289253
 s508
 
 N/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/model/GiantModel.cpp
-c000000005310979B0000000000000679
-t1393596315
-s1657
+c00000000531F8D880000000000000742
+t1394576776
+s1858
 
 N/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/model/GiantModel.h
 c000000005310971600000000000003AE
@@ -7465,7 +7522,7 @@ t1393339147
 s543
 
 N/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Debug/Kuafu.app
-t1394382895
+t1394632898
 s102
 
 N/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Debug/Kuafu.app/Contents/Info.plist
@@ -7473,8 +7530,8 @@ t1393335810
 s1442
 
 N/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Debug/Kuafu.app/Contents/MacOS/Kuafu
-t1394382894
-s5163784
+t1394632898
+s5344824
 
 N/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Debug/Kuafu.app/Contents/MacOS/libLeap.dylib
 t1393335829
@@ -7492,6 +7549,14 @@ N/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Debug/Kuafu
 t1394297316
 s170
 
+N/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Debug/Kuafu.app/Contents/Resources/kuafuModel.obj
+t2
+s0
+
+N/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Debug/Kuafu.app/Contents/Resources/models
+t1394632873
+s136
+
 N/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Debug/Kuafu.app/Contents/Resources/red
 t1393596103
 s986
@@ -7501,16 +7566,16 @@ t1394267773
 s238
 
 N/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/CameraKuafa.o
-t1394265721
-s92096
+t1394576348
+s92536
 
 N/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/Cinder-LeapMotion.o
 t1393335819
 s2797960
 
 N/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/GiantModel.o
-t1394297319
-s2286412
+t1394632606
+s482228
 
 N/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/GlobalSettings.o
 t1394266838
@@ -7521,13 +7586,13 @@ t1393335819
 s73480
 
 N/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/Kuafu.LinkFileList
-c00000000531AD2D5000000000000108F
-t1394266837
-s4239
+c00000000532066360000000000001111
+t1394632246
+s4369
 
 N/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/KuafuApp.o
-t1394297319
-s1993160
+t1394632607
+s1993768
 
 N/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/MathUtils.o
 t1393840130
@@ -7582,8 +7647,8 @@ t1393874609
 s2115228
 
 N/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/SceneKuafu.o
-t1394382893
-s934960
+t1394632896
+s935996
 
 N/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/SceneKuau.o
 t2
@@ -7608,6 +7673,10 @@ s2311048
 N/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/ViewBackground.o
 t1393540695
 s643432
+
+N/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/ViewGiant.o
+t1394632875
+s622776
 
 N/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/ViewGround.o
 t1393614384
@@ -7812,6 +7881,9 @@ r0
 CBuild AST from /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/ViewBackground.cpp
 r0
 
+CBuild AST from /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/ViewGiant.cpp
+r0
+
 CBuild AST from /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/ViewGround.cpp
 r0
 
@@ -7850,11 +7922,11 @@ r0
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesd4997710d2ccb841^9291ab10d2ccb841^---0#1#0#--18"Check dependencies36"39E87D64-5C57-467E-8B54-E2E07AA72A1E-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesa27f8656a0d0b841^66858a56a0d0b841^---0#1#0#--18"Check dependencies36"F6051A93-91B4-468D-A43A-93D37A7CE400-
 
 CCompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/CameraKuafa.o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/CameraKuafa.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s415958520.190515
-e415958521.228000
+s416269147.715991
+e416269148.938562
 r1
 xCompileC
 x./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/CameraKuafa.o
@@ -7863,7 +7935,7 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/CameraKuafa.cpp33e030f805cbb841^e15d3af905cbb841^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/CameraKuafa.cpp0000000000000000^2712"CompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/CameraKuafa.o ../src/CameraKuafa.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -I/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Kuafu.hmap -I../../../../../../../../Users/yiwenl/Development/Cinder/include -I../include -I../blocks/LeapMotion/src -I../blocks/Cinder-WebSocketPP/src -I../blocks/OSC/src -I../blocks/QuickTime/include -I/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/build/Debug/include -I../../../../../../../../Users/yiwenl/Development/Cinder/boost -I/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/DerivedSources/i386 -I/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/DerivedSources -F/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/build/Debug -include /var/folders/2r/z8b3t_054ns3yvlbk8637rpr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Kuafu_Prefix-fhozjmhraubjjkcxdxyzclajueui/Kuafu_Prefix.pch -MMD -MT dependencies -MF /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/CameraKuafa.d --serialize-diagnostics /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/CameraKuafa.dia -c /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/CameraKuafa.cpp -o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/CameraKuafa.o36"C1DEB4F7-4038-4B0D-9378-D42D04F94A41-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/CameraKuafa.cpp1764b75bc3cfb841^f698f05cc3cfb841^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/CameraKuafa.cpp0000000000000000^2712"CompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/CameraKuafa.o ../src/CameraKuafa.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -I/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Kuafu.hmap -I../../../../../../../../Users/yiwenl/Development/Cinder/include -I../include -I../blocks/LeapMotion/src -I../blocks/Cinder-WebSocketPP/src -I../blocks/OSC/src -I../blocks/QuickTime/include -I/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/build/Debug/include -I../../../../../../../../Users/yiwenl/Development/Cinder/boost -I/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/DerivedSources/i386 -I/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/DerivedSources -F/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/build/Debug -include /var/folders/2r/z8b3t_054ns3yvlbk8637rpr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Kuafu_Prefix-fhozjmhraubjjkcxdxyzclajueui/Kuafu_Prefix.pch -MMD -MT dependencies -MF /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/CameraKuafa.d --serialize-diagnostics /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/CameraKuafa.dia -c /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/CameraKuafa.cpp -o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/CameraKuafa.o36"4AD35BA4-5644-443D-B4A7-81418C001DFA-
 
 CCompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/Cinder-LeapMotion.o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../blocks/LeapMotion/src/Cinder-LeapMotion.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s415028616.019283
@@ -7879,8 +7951,8 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Compile /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../blocks/LeapMotion/src/Cinder-LeapMotion.cppe92a0588d5bcb841^3c668c8bd5bcb841^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../blocks/LeapMotion/src/Cinder-LeapMotion.cpp0000000000000000^2784"CompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/Cinder-LeapMotion.o ../blocks/LeapMotion/src/Cinder-LeapMotion.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -I/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Kuafu.hmap -I../../../../../../../../Users/yiwenl/Development/Cinder/include -I../include -I../blocks/LeapMotion/src -I../blocks/Cinder-WebSocketPP/src -I../blocks/OSC/src -I../blocks/QuickTime/include -I/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/build/Debug/include -I../../../../../../../../Users/yiwenl/Development/Cinder/boost -I/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/DerivedSources/i386 -I/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/DerivedSources -F/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/build/Debug -include /var/folders/2r/z8b3t_054ns3yvlbk8637rpr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Kuafu_Prefix-fhozjmhraubjjkcxdxyzclajueui/Kuafu_Prefix.pch -MMD -MT dependencies -MF /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/Cinder-LeapMotion.d --serialize-diagnostics /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/Cinder-LeapMotion.dia -c /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../blocks/LeapMotion/src/Cinder-LeapMotion.cpp -o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/Cinder-LeapMotion.o36"C6906F40-542E-4354-8D96-EEADD823FEB9-
 
 CCompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/GiantModel.o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/model/GiantModel.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s415990117.016204
-e415990119.359205
+s416325404.352640
+e416325406.957629
 r1
 xCompileC
 x./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/GiantModel.o
@@ -7889,7 +7961,7 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/model/GiantModel.cpp384c046581cbb841^a6d5786781cbb841^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/model/GiantModel.cpp0000000000000000^2718"CompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/GiantModel.o ../src/model/GiantModel.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -I/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Kuafu.hmap -I../../../../../../../../Users/yiwenl/Development/Cinder/include -I../include -I../blocks/LeapMotion/src -I../blocks/Cinder-WebSocketPP/src -I../blocks/OSC/src -I../blocks/QuickTime/include -I/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/build/Debug/include -I../../../../../../../../Users/yiwenl/Development/Cinder/boost -I/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/DerivedSources/i386 -I/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/DerivedSources -F/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/build/Debug -include /var/folders/2r/z8b3t_054ns3yvlbk8637rpr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Kuafu_Prefix-fhozjmhraubjjkcxdxyzclajueui/Kuafu_Prefix.pch -MMD -MT dependencies -MF /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/GiantModel.d --serialize-diagnostics /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/GiantModel.dia -c /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/model/GiantModel.cpp -o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/GiantModel.o36"680BBAB2-CC9B-4872-B6BB-E7D36D6178D5-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/model/GiantModel.cpp6e6c5a1c9fd0b841^ab25f51e9fd0b841^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/model/GiantModel.cpp0000000000000000^2718"CompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/GiantModel.o ../src/model/GiantModel.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -I/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Kuafu.hmap -I../../../../../../../../Users/yiwenl/Development/Cinder/include -I../include -I../blocks/LeapMotion/src -I../blocks/Cinder-WebSocketPP/src -I../blocks/OSC/src -I../blocks/QuickTime/include -I/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/build/Debug/include -I../../../../../../../../Users/yiwenl/Development/Cinder/boost -I/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/DerivedSources/i386 -I/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/DerivedSources -F/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/build/Debug -include /var/folders/2r/z8b3t_054ns3yvlbk8637rpr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Kuafu_Prefix-fhozjmhraubjjkcxdxyzclajueui/Kuafu_Prefix.pch -MMD -MT dependencies -MF /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/GiantModel.d --serialize-diagnostics /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/GiantModel.dia -c /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/model/GiantModel.cpp -o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/GiantModel.o36"9D59AF28-5114-4109-A870-B5DA8FD4DA8E-
 
 CCompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/GlobalSettings.o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/model/GlobalSettings.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s415959637.410548
@@ -7918,8 +7990,8 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Compile /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../blocks/OSC/src/ip/IpEndpointName.cpp4d2f0d8ad5bcb841^b8e8a08bd5bcb841^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../blocks/OSC/src/ip/IpEndpointName.cpp0000000000000000^2758"CompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/IpEndpointName.o ../blocks/OSC/src/ip/IpEndpointName.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -I/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Kuafu.hmap -I../../../../../../../../Users/yiwenl/Development/Cinder/include -I../include -I../blocks/LeapMotion/src -I../blocks/Cinder-WebSocketPP/src -I../blocks/OSC/src -I../blocks/QuickTime/include -I/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/build/Debug/include -I../../../../../../../../Users/yiwenl/Development/Cinder/boost -I/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/DerivedSources/i386 -I/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/DerivedSources -F/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/build/Debug -include /var/folders/2r/z8b3t_054ns3yvlbk8637rpr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Kuafu_Prefix-fhozjmhraubjjkcxdxyzclajueui/Kuafu_Prefix.pch -MMD -MT dependencies -MF /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/IpEndpointName.d --serialize-diagnostics /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/IpEndpointName.dia -c /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../blocks/OSC/src/ip/IpEndpointName.cpp -o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/IpEndpointName.o36"B928E2F5-28EA-41ED-9C87-657EC5DBBB92-
 
 CCompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/KuafuApp.o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/KuafuApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s415990117.012394
-e415990119.365691
+s416325404.348769
+e416325407.585088
 r1
 xCompileC
 x./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/KuafuApp.o
@@ -7928,7 +8000,7 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/KuafuApp.cpp3546036581cbb841^34d8786781cbb841^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/KuafuApp.cpp0000000000000000^2694"CompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/KuafuApp.o ../src/KuafuApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -I/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Kuafu.hmap -I../../../../../../../../Users/yiwenl/Development/Cinder/include -I../include -I../blocks/LeapMotion/src -I../blocks/Cinder-WebSocketPP/src -I../blocks/OSC/src -I../blocks/QuickTime/include -I/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/build/Debug/include -I../../../../../../../../Users/yiwenl/Development/Cinder/boost -I/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/DerivedSources/i386 -I/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/DerivedSources -F/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/build/Debug -include /var/folders/2r/z8b3t_054ns3yvlbk8637rpr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Kuafu_Prefix-fhozjmhraubjjkcxdxyzclajueui/Kuafu_Prefix.pch -MMD -MT dependencies -MF /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/KuafuApp.d --serialize-diagnostics /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/KuafuApp.dia -c /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/KuafuApp.cpp -o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/KuafuApp.o36"91493B2B-9B8B-49A6-82F1-924CB21861EA-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/KuafuApp.cppf375591c9fd0b841^21c8951f9fd0b841^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/KuafuApp.cpp0000000000000000^2694"CompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/KuafuApp.o ../src/KuafuApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -I/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Kuafu.hmap -I../../../../../../../../Users/yiwenl/Development/Cinder/include -I../include -I../blocks/LeapMotion/src -I../blocks/Cinder-WebSocketPP/src -I../blocks/OSC/src -I../blocks/QuickTime/include -I/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/build/Debug/include -I../../../../../../../../Users/yiwenl/Development/Cinder/boost -I/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/DerivedSources/i386 -I/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/DerivedSources -F/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/build/Debug -include /var/folders/2r/z8b3t_054ns3yvlbk8637rpr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Kuafu_Prefix-fhozjmhraubjjkcxdxyzclajueui/Kuafu_Prefix.pch -MMD -MT dependencies -MF /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/KuafuApp.d --serialize-diagnostics /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/KuafuApp.dia -c /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/KuafuApp.cpp -o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/KuafuApp.o36"43995033-2669-48E0-9106-8069ECED9C92-
 
 CCompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/MathUtils.o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/bongiovi/MathUtils.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s415532929.672767
@@ -8100,8 +8172,8 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/bongiovi/Scene.cpp1d038a2f0ec5b841^110157310ec5b841^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/bongiovi/Scene.cpp0000000000000000^2694"CompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/Scene.o ../src/bongiovi/Scene.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -I/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Kuafu.hmap -I../../../../../../../../Users/yiwenl/Development/Cinder/include -I../include -I../blocks/LeapMotion/src -I../blocks/Cinder-WebSocketPP/src -I../blocks/OSC/src -I../blocks/QuickTime/include -I/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/build/Debug/include -I../../../../../../../../Users/yiwenl/Development/Cinder/boost -I/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/DerivedSources/i386 -I/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/DerivedSources -F/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/build/Debug -include /var/folders/2r/z8b3t_054ns3yvlbk8637rpr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Kuafu_Prefix-fhozjmhraubjjkcxdxyzclajueui/Kuafu_Prefix.pch -MMD -MT dependencies -MF /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/Scene.d --serialize-diagnostics /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/Scene.dia -c /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/bongiovi/Scene.cpp -o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/Scene.o36"B9A76059-3AE6-4265-9999-A7EF8700C5AF-
 
 CCompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/SceneKuafu.o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/SceneKuafu.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s416075690.051529
-e416075693.742962
+s416325694.781862
+e416325696.800207
 r1
 xCompileC
 x./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/SceneKuafu.o
@@ -8110,7 +8182,7 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/SceneKuafu.cppb6490daacfccb841^fc34beadcfccb841^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/SceneKuafu.cpp0000000000000000^2706"CompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/SceneKuafu.o ../src/SceneKuafu.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -I/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Kuafu.hmap -I../../../../../../../../Users/yiwenl/Development/Cinder/include -I../include -I../blocks/LeapMotion/src -I../blocks/Cinder-WebSocketPP/src -I../blocks/OSC/src -I../blocks/QuickTime/include -I/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/build/Debug/include -I../../../../../../../../Users/yiwenl/Development/Cinder/boost -I/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/DerivedSources/i386 -I/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/DerivedSources -F/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/build/Debug -include /var/folders/2r/z8b3t_054ns3yvlbk8637rpr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Kuafu_Prefix-fhozjmhraubjjkcxdxyzclajueui/Kuafu_Prefix.pch -MMD -MT dependencies -MF /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/SceneKuafu.d --serialize-diagnostics /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/SceneKuafu.dia -c /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/SceneKuafu.cpp -o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/SceneKuafu.o36"1F499C63-C351-4575-A3D0-614271873942-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/SceneKuafu.cppc8b2c83ea0d0b841^e8d9cc40a0d0b841^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/SceneKuafu.cpp0000000000000000^2706"CompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/SceneKuafu.o ../src/SceneKuafu.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -I/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Kuafu.hmap -I../../../../../../../../Users/yiwenl/Development/Cinder/include -I../include -I../blocks/LeapMotion/src -I../blocks/Cinder-WebSocketPP/src -I../blocks/OSC/src -I../blocks/QuickTime/include -I/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/build/Debug/include -I../../../../../../../../Users/yiwenl/Development/Cinder/boost -I/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/DerivedSources/i386 -I/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/DerivedSources -F/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/build/Debug -include /var/folders/2r/z8b3t_054ns3yvlbk8637rpr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Kuafu_Prefix-fhozjmhraubjjkcxdxyzclajueui/Kuafu_Prefix.pch -MMD -MT dependencies -MF /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/SceneKuafu.d --serialize-diagnostics /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/SceneKuafu.dia -c /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/SceneKuafu.cpp -o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/SceneKuafu.o36"410E0FBD-ACB2-445A-B762-50A0C4D61AB9-
 
 CCompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/SceneKuau.o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/SceneKuau.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 r0
@@ -8179,6 +8251,19 @@ xi386
 xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/ViewBackground.cpp0ce71ecdf5bfb841^51a5aed7f5bfb841^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/ViewBackground.cpp0000000000000000^2730"CompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/ViewBackground.o ../src/ViewBackground.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -I/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Kuafu.hmap -I../../../../../../../../Users/yiwenl/Development/Cinder/include -I../include -I../blocks/LeapMotion/src -I../blocks/Cinder-WebSocketPP/src -I../blocks/OSC/src -I../blocks/QuickTime/include -I/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/build/Debug/include -I../../../../../../../../Users/yiwenl/Development/Cinder/boost -I/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/DerivedSources/i386 -I/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/DerivedSources -F/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/build/Debug -include /var/folders/2r/z8b3t_054ns3yvlbk8637rpr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Kuafu_Prefix-fhozjmhraubjjkcxdxyzclajueui/Kuafu_Prefix.pch -MMD -MT dependencies -MF /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/ViewBackground.d --serialize-diagnostics /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/ViewBackground.dia -c /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/ViewBackground.cpp -o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/ViewBackground.o36"DA0965FD-7D97-4895-A30D-B4D6A3AA026A-
+
+CCompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/ViewGiant.o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/ViewGiant.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s416325673.975268
+e416325675.319209
+r1
+xCompileC
+x./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/ViewGiant.o
+x/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/ViewGiant.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/ViewGiant.cpp76c4f929a0d0b841^b3b6512ba0d0b841^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/ViewGiant.cpp0000000000000000^2700"CompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/ViewGiant.o ../src/ViewGiant.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -I/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Kuafu.hmap -I../../../../../../../../Users/yiwenl/Development/Cinder/include -I../include -I../blocks/LeapMotion/src -I../blocks/Cinder-WebSocketPP/src -I../blocks/OSC/src -I../blocks/QuickTime/include -I/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/build/Debug/include -I../../../../../../../../Users/yiwenl/Development/Cinder/boost -I/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/DerivedSources/i386 -I/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/DerivedSources -F/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/build/Debug -include /var/folders/2r/z8b3t_054ns3yvlbk8637rpr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Kuafu_Prefix-fhozjmhraubjjkcxdxyzclajueui/Kuafu_Prefix.pch -MMD -MT dependencies -MF /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/ViewGiant.d --serialize-diagnostics /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/ViewGiant.dia -c /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/ViewGiant.cpp -o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/ViewGiant.o36"89E5A766-F879-453C-96C1-3218301DA5C5-
 
 CCompileC ./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/ViewGround.o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../src/ViewGround.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s415307182.884525
@@ -8280,6 +8365,18 @@ x../assets/common
 x./build/Debug/Kuafu.app/Contents/Resources/common
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy ./build/Debug/Kuafu.app/Contents/Resources/common529ef96481cbb841^1118ff6481cbb841^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Debug/Kuafu.app/Contents/Resources/common/0000000000000000^437"CpResource ../assets/common ./build/Debug/Kuafu.app/Contents/Resources/common    cd /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../assets/common /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Debug/Kuafu.app/Contents/Resources36"2CDE56FF-630E-4281-9E0C-59C1EEFB812F-
 
+CCpResource ../assets/models ./build/Debug/Kuafu.app/Contents/Resources/models
+s416325673.946396
+e416325673.953590
+r1
+xCpResource
+x../assets/models
+x./build/Debug/Kuafu.app/Contents/Resources/models
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy ./build/Debug/Kuafu.app/Contents/Resources/models1d58f229a0d0b841^9b1ef429a0d0b841^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Debug/Kuafu.app/Contents/Resources/models/0000000000000000^437"CpResource ../assets/models ./build/Debug/Kuafu.app/Contents/Resources/models    cd /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../assets/models /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Debug/Kuafu.app/Contents/Resources36"2CD676DD-414A-4AE4-8ACE-987DD939F99B-
+
+CCpResource ../assets/models/kuafuModel.obj ./build/Debug/Kuafu.app/Contents/Resources/kuafuModel.obj
+r0
+
 CCpResource ../assets/red ./build/Debug/Kuafu.app/Contents/Resources/red
 s415288903.028663
 e415288903.424850
@@ -8308,14 +8405,14 @@ x./build/Debug/Kuafu.app/Contents/Resources/CinderApp.icns
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy ./build/Debug/Kuafu.app/Contents/Resources/CinderApp.icns1761d282d5bcb841^f241d782d5bcb841^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Debug/Kuafu.app/Contents/Resources/CinderApp.icns000000000080d041^467"CpResource ../resources/CinderApp.icns ./build/Debug/Kuafu.app/Contents/Resources/CinderApp.icns    cd /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/../resources/CinderApp.icns /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Debug/Kuafu.app/Contents/Resources36"97031F5E-E324-4D98-B8A4-E699DBB9B5B6-
 
 CLd /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Debug/Kuafu.app/Contents/MacOS/Kuafu normal i386
-s416075693.749291
-e416075695.132839
+s416325696.807411
+e416325698.337280
 r1
 xLd
 x/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Debug/Kuafu.app/Contents/MacOS/Kuafu
 xnormal
 xi386
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Link /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Debug/Kuafu.app/Contents/MacOS/Kuafu3fe6bfadcfccb841^c50322afcfccb841^---0#0#0#--1302"Ld ./build/Debug/Kuafu.app/Contents/MacOS/Kuafu normal i386    cd /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/build/Debug -L../blocks/Cinder-WebSocketPP/lib/macosx -F/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/build/Debug -filelist /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/Kuafu.LinkFileList -mmacosx-version-min=10.7 -dead_strip ../../../../../../../../Users/yiwenl/Development/Cinder/lib/libcinder_d.a ../blocks/Cinder-WebSocketPP/lib/macosx/libboost_random.a ../blocks/Cinder-WebSocketPP/lib/macosx/libboost_regex.a ../blocks/LeapMotion/lib/macosx/libLeap.dylib -stdlib=libc++ -framework Cocoa -framework OpenGL -framework CoreVideo -framework QTKit -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -framework QuickTime -o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Debug/Kuafu.app/Contents/MacOS/Kuafu36"5CE98797-571D-4BD7-B2EC-28C511493685-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Link /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Debug/Kuafu.app/Contents/MacOS/Kuafu12dace40a0d0b841^c9575642a0d0b841^---0#0#0#--1302"Ld ./build/Debug/Kuafu.app/Contents/MacOS/Kuafu normal i386    cd /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/build/Debug -L../blocks/Cinder-WebSocketPP/lib/macosx -F/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/build/Debug -filelist /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Objects-normal/i386/Kuafu.LinkFileList -mmacosx-version-min=10.7 -dead_strip ../../../../../../../../Users/yiwenl/Development/Cinder/lib/libcinder_d.a ../blocks/Cinder-WebSocketPP/lib/macosx/libboost_random.a ../blocks/Cinder-WebSocketPP/lib/macosx/libboost_regex.a ../blocks/LeapMotion/lib/macosx/libLeap.dylib -stdlib=libc++ -framework Cocoa -framework OpenGL -framework CoreVideo -framework QTKit -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -framework QuickTime -o /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Debug/Kuafu.app/Contents/MacOS/Kuafu36"747B32C6-6A03-4A39-BF7E-CA5021355131-
 
 CPBXCp ../blocks/LeapMotion/lib/macosx/libLeap.dylib ./build/Debug/Kuafu.app/Contents/MacOS/libLeap.dylib
 s415028629.629752
@@ -8352,10 +8449,10 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection27"Precompile Kuafu_Prefix.pchef3cd582d5bcb841^5c1e0388d5bcb841^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/Kuafu_Prefix.pch0000000000000000^2705"ProcessPCH++ /var/folders/2r/z8b3t_054ns3yvlbk8637rpr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Kuafu_Prefix-fhozjmhraubjjkcxdxyzclajueui/Kuafu_Prefix.pch.pth Kuafu_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -I/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/Kuafu.hmap -I../../../../../../../../Users/yiwenl/Development/Cinder/include -I../include -I../blocks/LeapMotion/src -I../blocks/Cinder-WebSocketPP/src -I../blocks/OSC/src -I../blocks/QuickTime/include -I/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/build/Debug/include -I../../../../../../../../Users/yiwenl/Development/Cinder/boost -I/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/DerivedSources/i386 -I/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Kuafu.build/Debug/Kuafu.build/DerivedSources -F/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/build/Debug --serialize-diagnostics /var/folders/2r/z8b3t_054ns3yvlbk8637rpr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Kuafu_Prefix-fhozjmhraubjjkcxdxyzclajueui/Kuafu_Prefix.pch.dia -c /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/Kuafu_Prefix.pch -o /var/folders/2r/z8b3t_054ns3yvlbk8637rpr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Kuafu_Prefix-fhozjmhraubjjkcxdxyzclajueui/Kuafu_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/2r/z8b3t_054ns3yvlbk8637rpr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Kuafu_Prefix-fhozjmhraubjjkcxdxyzclajueui/Kuafu_Prefix.pch.d36"A80D7BC5-23E4-4263-87E6-061BEA077173-
 
 CTouch /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Debug/Kuafu.app
-s416075695.151819
-e416075695.417358
+s416325698.353530
+e416325698.359885
 r1
 xTouch
 x/Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Debug/Kuafu.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Touch /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Debug/Kuafu.app46ed26afcfccb841^dd086bafcfccb841^---0#0#0#--203"Touch ./build/Debug/Kuafu.app    cd /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode    /usr/bin/touch -c /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Debug/Kuafu.app36"E2E9E0E7-A409-4A50-A0DA-8B07C007982B-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Touch /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Debug/Kuafu.app6b9f5a42a0d0b841^18215c42a0d0b841^---0#0#0#--203"Touch ./build/Debug/Kuafu.app    cd /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode    /usr/bin/touch -c /Applications/MAMP/htdocs/projects/kuafu/cinder/Kuafu/xcode/./build/Debug/Kuafu.app36"71531334-FB7B-4928-888B-6A58400C8964-
 

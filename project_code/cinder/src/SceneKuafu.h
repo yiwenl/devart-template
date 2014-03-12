@@ -18,6 +18,7 @@
 #include "ViewGround.h"
 #include "ViewBackground.h"
 #include "ViewMountains.h"
+#include "ViewGiant.h"
 
 using namespace bongiovi;
 
@@ -38,6 +39,7 @@ class SceneKuafu : public Scene {
     ViewBackground*         _vBg;
     ViewGround*             _vGround;
     ViewSun*                _vSun;
+    ViewGiant*              _vGiant;
     vector<ViewMountain*>   _mountains;
 
     // TEXTURES

@@ -54,6 +54,11 @@ void CameraKuafu::update() {
 }
 
 
+
+void CameraKuafu::setRotateY(float theta) {
+    _targetRy = theta;
+}
+
 void CameraKuafu::_updateDistance() {
     _distY = (_mouse.x - _preMouse.x) / 200.0f;
     _distX = -(_mouse.y - _preMouse.y) / 200.0f;

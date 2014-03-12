@@ -38,13 +38,16 @@ void GiantModel::update() {
 		osc::Message message;
 		_listener.getNextMessage( &message );
 		
-		console() << "New message received" << std::endl;
-		console() << "Address: " << message.getAddress() << std::endl;
-		console() << "Num Arg: " << message.getNumArgs() << std::endl;
+//		console() << "New message received" << std::endl;
+//		console() << "Address: " << message.getAddress() << std::endl;
+//		console() << "Num Arg: " << message.getNumArgs() << std::endl;
         
         string address = message.getAddress();
         if(address == "/onMountains") {
             _onGetMountains(message);
+        } else if(address == "/onCameraAngle") {
+            cout << "Camera Angle : " << message.getArgAsFloat(0) << endl;
+            _scene->cameraKuafu->setRotateY(message.getArgAsFloat(0));
         }
     }
 }

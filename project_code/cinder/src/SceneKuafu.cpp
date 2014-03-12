@@ -47,6 +47,7 @@ void SceneKuafu::_initViews() {
     _vBg            = new ViewBackground();
     _vGround        = new ViewGround();
     _vSun           = new ViewSun();
+    _vGiant         = new ViewGiant();
 }
 
 
@@ -84,7 +85,8 @@ void SceneKuafu::render() {
     gl::setMatrices(*_camera);
 //    gl::rotate(sceneQuat->quat);
     _vGround->render(_texGround);
-    _vSun->render(_texSun);
+//    _vSun->render(_texSun);
+    _vGiant->render(_texGround);
     
     vector<ViewMountain*>::iterator iter = _mountains.begin();
     while(iter != _mountains.end()) {

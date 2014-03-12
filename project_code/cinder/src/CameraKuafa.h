@@ -22,6 +22,7 @@ class CameraKuafu {
     void            mouseDrag(Vec2i);
     void            update();
     Vec3f           camera;
+    void            setRotateY(float);
 
     private :
     void            _updateDistance();
