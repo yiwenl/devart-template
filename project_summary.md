@@ -47,9 +47,9 @@ The story  will be break into 3 chapters:
 #### Chapter 1 The Raise 
 This is the introduction to the journey. Kuafu wakes up, the sun raises and the mountains erect around him.
 
-####Chapter 2 The Chase 
+#### Chapter 2 The Chase 
 Once the introduction done the Giant starts to chase the sun from east to west. This is where user can start exploring the map. Guiding the Giant toward the sun. 
 The landscape surrounding him will be created using the topographic data of Google Map. For example when Kuafu crosses the alp all the mountains will be rendered. Aswell as the mountain will keep other landscape features such as the sea and ocean which Kuafu will swim across.
 
-####Chapter 3 The Fall
+#### Chapter 3 The Fall
 The end of the story,after a certain time Kuafu will fall of exhaustion and became a mountain - Your mountain. After naming your mountain your session will be finished.
