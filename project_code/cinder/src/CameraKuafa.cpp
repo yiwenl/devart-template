@@ -14,6 +14,8 @@ CameraKuafu::CameraKuafu() {
     _mouse.set(0, 0);
     _preMouse.set(0, 0);
     camera.set(1.0f, 0.0f, 0.0f);
+    _targetRx = 0.0f;
+    _targetRy = 0.0f;
 }
 
 
@@ -39,7 +41,7 @@ void CameraKuafu::update() {
         _targetRy = _tempRy + _distY;
     }
     
-    _rx += (_targetRx - _rx) * cameraSpeed;
+//    _rx += (_targetRx - _rx) * cameraSpeed;
     _ry += (_targetRy - _ry) * cameraSpeed;
     
     if(_rx > M_PI_2) {

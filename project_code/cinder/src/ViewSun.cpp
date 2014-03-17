@@ -8,7 +8,7 @@
 
 #include "ViewSun.h"
 
-ViewSun::ViewSun() : View("shaders/copy.vert", "shaders/copy.frag") {
+ViewSun::ViewSun() : View("shaders/sun.vert", "shaders/sun.frag") {
     _init();
 }
 
@@ -28,7 +28,7 @@ void ViewSun::_init() {
     vector<Vec2f> coords;
     
     int i, j, index = 0;
-    float numSeg = 80;
+    float numSeg = 50;
     float uvBase = 1.0/numSeg;
     float radius = 50.0f;
     Vec3f pos(0.0, 100.0, 0.0);
@@ -80,6 +80,7 @@ Vec3f ViewSun::_getVertex(int i, int j, float numSeg, float radius) {
 void ViewSun::render(gl::TextureRef texture) {
     shader->bind();
     shader->uniform("texture", 0);
+    shader->uniform("position", Vec3f(0.0f, 0.0f, 200.0f));
     texture->bind(0);
     gl::draw(mesh);
     texture->unbind();

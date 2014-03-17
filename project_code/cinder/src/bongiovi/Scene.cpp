@@ -23,7 +23,7 @@ Scene::Scene() {
 	_eye			= Vec3f( 0.0f, 0.0f, cameraDistance );
 	_center			= Vec3f::zero();
 	_up				= Vec3f::yAxis();
-	_camera->setPerspective( 45.0f, ci::app::getWindowAspectRatio(), 1.0f, 2000.0f );
+	_camera->setPerspective( 45.0f, ci::app::getWindowAspectRatio(), 5.0f, 5000.0f );
     _cameraOrtho->setOrtho( -1, 1, -1, 1, -1, 1 );
 };
 

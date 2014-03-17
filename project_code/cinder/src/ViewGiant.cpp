@@ -9,7 +9,7 @@
 #include "ViewGiant.h"
 
 
-ViewGiant::ViewGiant() : View("shaders/copy.vert", "shaders/copy.frag") {
+ViewGiant::ViewGiant() : View("shaders/giant.vert", "shaders/giant.frag") {
     _init();
 }
 
@@ -29,5 +29,15 @@ void ViewGiant::render(gl::TextureRef texture) {
 //    gl::draw(mesh);
     gl::draw(_meshGiant);
     texture->unbind();
+    shader->unbind();
+}
+
+
+void ViewGiant::render(gl::Texture texture) {
+    shader->bind();
+    shader->uniform("texture", 0);
+    texture.bind(0);
+    gl::draw(_meshGiant);
+    texture.unbind();
     shader->unbind();
 }

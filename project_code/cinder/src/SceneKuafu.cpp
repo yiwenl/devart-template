@@ -20,7 +20,7 @@ SceneKuafu::SceneKuafu() {
 
 
 void SceneKuafu::_initTextures() {
-    _texBg          = Utils::createTexture("common/background.png");
+    _texBg          = Utils::createTexture("common/background.jpg");
     _texSun         = Utils::createTexture("common/sun.png");
     _texGround      = Utils::createTexture("common/ground.png");
     
@@ -40,6 +40,11 @@ void SceneKuafu::_initTextures() {
     
     int size = 1024;
     _fboPost = new gl::Fbo(size, size, format);
+    
+    _movie = qtime::MovieGl( cinder::app::loadResource("videos/color0.mov"));
+    _movie.setLoop();
+    _movie.play();
+
 }
 
 
@@ -48,6 +53,7 @@ void SceneKuafu::_initViews() {
     _vGround        = new ViewGround();
     _vSun           = new ViewSun();
     _vGiant         = new ViewGiant();
+    _vCirBg         = new ViewCircleBg();
 }
 
 
@@ -76,17 +82,18 @@ void SceneKuafu::update() {
 
 
 void SceneKuafu::render() {
-    gl::setMatrices(*_cameraOrtho);
+//    gl::setMatrices(*_cameraOrtho);
 
-    gl::disable(GL_DEPTH_TEST);
-    _vBg->render(_texBg);
-    gl::enable(GL_DEPTH_TEST);
+//    gl::disable(GL_DEPTH_TEST);
+//    _vBg->render(_texBg);
+//    gl::enable(GL_DEPTH_TEST);
     
     gl::setMatrices(*_camera);
 //    gl::rotate(sceneQuat->quat);
+    _vCirBg->render();
     _vGround->render(_texGround);
-//    _vSun->render(_texSun);
-    _vGiant->render(_texGround);
+    _vSun->render(_texSun);
+    _vGiant->render(_movie.getTexture());
     
     vector<ViewMountain*>::iterator iter = _mountains.begin();
     while(iter != _mountains.end()) {

@@ -24,6 +24,9 @@
 		5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B50EAFCA7E003A9687 /* QTKit.framework */; };
 		7D31DD3385714E218587B83F /* OscOutboundPacketStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A728FC9180174BBAA0A2FC90 /* OscOutboundPacketStream.cpp */; };
 		7FB117D3DCE04CB99DCA00F5 /* OscSender.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B80D024B016545C0878B665F /* OscSender.cpp */; };
+		850008A418D09D7300135A27 /* ViewGiant.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 850008A218D09D7300135A27 /* ViewGiant.cpp */; };
+		850008A918D09E7700135A27 /* models in Resources */ = {isa = PBXBuildFile; fileRef = 850008A818D09E7700135A27 /* models */; };
+		8530FEE418D2588E00E992D0 /* ViewCircleBg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8530FEE218D2588E00E992D0 /* ViewCircleBg.cpp */; };
 		85725A2818C0CC1B00750802 /* ViewMountains.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85725A2618C0CC1B00750802 /* ViewMountains.cpp */; };
 		85725A2A18C0CDE600750802 /* red in Resources */ = {isa = PBXBuildFile; fileRef = 85725A2918C0CDE600750802 /* red */; };
 		857B8CC118CB07C70041A9B7 /* GlobalSettings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 857B8CBF18CB07C70041A9B7 /* GlobalSettings.cpp */; };
@@ -35,6 +38,7 @@
 		859BC35618BFF8A2007AC1DF /* ViewGround.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 859BC35418BFF8A2007AC1DF /* ViewGround.cpp */; };
 		859BC35918BFFBB2007AC1DF /* MeshUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 859BC35718BFFBB2007AC1DF /* MeshUtils.cpp */; };
 		859BC35C18BFFC02007AC1DF /* ViewSun.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 859BC35A18BFFC02007AC1DF /* ViewSun.cpp */; };
+		85A554D618D22CBB00D6E23F /* videos in Resources */ = {isa = PBXBuildFile; fileRef = 85A554D518D22CBB00D6E23F /* videos */; };
 		85F2E6B118BCD551001E6A8A /* MathUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85F2E6A718BCD551001E6A8A /* MathUtils.cpp */; };
 		85F2E6B218BCD551001E6A8A /* Scene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85F2E6A918BCD551001E6A8A /* Scene.cpp */; };
 		85F2E6B318BCD551001E6A8A /* SceneQuat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85F2E6AB18BCD551001E6A8A /* SceneQuat.cpp */; };
@@ -108,6 +112,11 @@
 		7ADA46D698514CE3B0D3E384 /* WebSocketConnection.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = WebSocketConnection.cpp; path = "../blocks/Cinder-WebSocketPP/src/WebSocketConnection.cpp"; sourceTree = "<group>"; };
 		81B9FC4F985640FAB041A523 /* WebSocketClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WebSocketClient.h; path = "../blocks/Cinder-WebSocketPP/src/WebSocketClient.h"; sourceTree = "<group>"; };
 		8242A33ADF6A40108DE2AF50 /* libLeap.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libLeap.dylib; path = ../blocks/LeapMotion/lib/macosx/libLeap.dylib; sourceTree = "<group>"; };
+		850008A218D09D7300135A27 /* ViewGiant.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ViewGiant.cpp; path = ../src/ViewGiant.cpp; sourceTree = "<group>"; };
+		850008A318D09D7300135A27 /* ViewGiant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewGiant.h; path = ../src/ViewGiant.h; sourceTree = "<group>"; };
+		850008A818D09E7700135A27 /* models */ = {isa = PBXFileReference; lastKnownFileType = folder; name = models; path = ../assets/models; sourceTree = "<group>"; };
+		8530FEE218D2588E00E992D0 /* ViewCircleBg.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ViewCircleBg.cpp; path = ../src/ViewCircleBg.cpp; sourceTree = "<group>"; };
+		8530FEE318D2588E00E992D0 /* ViewCircleBg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewCircleBg.h; path = ../src/ViewCircleBg.h; sourceTree = "<group>"; };
 		85725A2618C0CC1B00750802 /* ViewMountains.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ViewMountains.cpp; path = ../src/ViewMountains.cpp; sourceTree = "<group>"; };
 		85725A2718C0CC1B00750802 /* ViewMountains.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewMountains.h; path = ../src/ViewMountains.h; sourceTree = "<group>"; };
 		85725A2918C0CDE600750802 /* red */ = {isa = PBXFileReference; lastKnownFileType = folder; name = red; path = ../assets/red; sourceTree = "<group>"; };
@@ -127,6 +136,7 @@
 		859BC35818BFFBB2007AC1DF /* MeshUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeshUtils.h; sourceTree = "<group>"; };
 		859BC35A18BFFC02007AC1DF /* ViewSun.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ViewSun.cpp; path = ../src/ViewSun.cpp; sourceTree = "<group>"; };
 		859BC35B18BFFC02007AC1DF /* ViewSun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewSun.h; path = ../src/ViewSun.h; sourceTree = "<group>"; };
+		85A554D518D22CBB00D6E23F /* videos */ = {isa = PBXFileReference; lastKnownFileType = folder; name = videos; path = ../assets/videos; sourceTree = "<group>"; };
 		85F2E6A718BCD551001E6A8A /* MathUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MathUtils.cpp; sourceTree = "<group>"; };
 		85F2E6A818BCD551001E6A8A /* MathUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathUtils.h; sourceTree = "<group>"; };
 		85F2E6A918BCD551001E6A8A /* Scene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Scene.cpp; sourceTree = "<group>"; };
@@ -293,8 +303,10 @@
 				859BC34E18BFF253007AC1DF /* ViewBackground.h */,
 				859BC35518BFF8A2007AC1DF /* ViewGround.h */,
 				85725A2718C0CC1B00750802 /* ViewMountains.h */,
+				850008A318D09D7300135A27 /* ViewGiant.h */,
 				8581EE2218C50E0E004A5149 /* CameraKuafa.h */,
 				857B8CC018CB07C70041A9B7 /* GlobalSettings.h */,
+				8530FEE318D2588E00E992D0 /* ViewCircleBg.h */,
 			);
 			name = Headers;
 			sourceTree = "<group>";
@@ -302,6 +314,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				85A554D518D22CBB00D6E23F /* videos */,
+				850008A818D09E7700135A27 /* models */,
 				85725A2918C0CDE600750802 /* red */,
 				859BC35018BFF334007AC1DF /* common */,
 				859BC35118BFF334007AC1DF /* shaders */,
@@ -407,6 +421,8 @@
 				859BC35418BFF8A2007AC1DF /* ViewGround.cpp */,
 				859BC35A18BFFC02007AC1DF /* ViewSun.cpp */,
 				85725A2618C0CC1B00750802 /* ViewMountains.cpp */,
+				850008A218D09D7300135A27 /* ViewGiant.cpp */,
+				8530FEE218D2588E00E992D0 /* ViewCircleBg.cpp */,
 			);
 			name = views;
 			sourceTree = "<group>";
@@ -586,6 +602,8 @@
 				859BC35218BFF334007AC1DF /* common in Resources */,
 				859BC35318BFF334007AC1DF /* shaders in Resources */,
 				85725A2A18C0CDE600750802 /* red in Resources */,
+				850008A918D09E7700135A27 /* models in Resources */,
+				85A554D618D22CBB00D6E23F /* videos in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -628,6 +646,8 @@
 				85725A2818C0CC1B00750802 /* ViewMountains.cpp in Sources */,
 				8581EE2318C50E0E004A5149 /* CameraKuafa.cpp in Sources */,
 				857B8CC118CB07C70041A9B7 /* GlobalSettings.cpp in Sources */,
+				850008A418D09D7300135A27 /* ViewGiant.cpp in Sources */,
+				8530FEE418D2588E00E992D0 /* ViewCircleBg.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

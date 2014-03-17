@@ -10,6 +10,7 @@
 #define __Kuafu__SceneKuafu__
 
 #include <iostream>
+#include "cinder/qtime/QuickTime.h"
 #include "cinder/gl/Texture.h"
 #include "cinder/gl/Fbo.h"
 #include "Scene.h"
@@ -19,6 +20,7 @@
 #include "ViewBackground.h"
 #include "ViewMountains.h"
 #include "ViewGiant.h"
+#include "ViewCircleBg.h"
 
 using namespace bongiovi;
 
@@ -34,12 +36,14 @@ class SceneKuafu : public Scene {
     private :
     void                    _initTextures();
     void                    _initViews();
+    qtime::MovieGl          _movie;
 
     // VIEWS
     ViewBackground*         _vBg;
     ViewGround*             _vGround;
     ViewSun*                _vSun;
     ViewGiant*              _vGiant;
+    ViewCircleBg*           _vCirBg;
     vector<ViewMountain*>   _mountains;
 
     // TEXTURES

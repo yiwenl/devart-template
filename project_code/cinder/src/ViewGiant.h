@@ -22,6 +22,7 @@ class ViewGiant : public View {
 public:
     ViewGiant();
     void                    render(gl::TextureRef);
+    void                    render(gl::Texture);
     
 private:
     void                    _init();

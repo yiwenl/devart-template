@@ -103,8 +103,8 @@ void KuafuApp::keyDown( KeyEvent event) {
             setFullScreen(!isFullScreen());
             break;
         case 'h' :
-//            if(_params->isMaximized() ) _params->minimize();
-//            else _params->maximize();
+            if(_params->isMaximized() ) _params->minimize();
+            else _params->maximize();
             break;
             
     }
