@@ -6,6 +6,10 @@ var dgram 	= require("dgram");
 var udp 	= dgram.createSocket("udp4");
 
 
+var MountainModel = require('./model.js');
+var model = MountainModel.create();
+console.log( model.getMountains(0, 1) );
+
 /* SERVER VARIABLES */
 var port = 8158;
 var connected = false;
