@@ -20,7 +20,7 @@
 		var that = this;
 
 		if(typeof io != 'undefined') {
-			this._socket = io.connect('http://192.168.1.70:8158');
+			this._socket = io.connect('http://192.168.109.127:8158');
 
 			this._socket.on('hello', function(data) {
 				console.log("hello from the Controller :: data.id : ", data.id);
@@ -45,8 +45,9 @@
 
 
 		document.body.addEventListener("touchstart", function(e) {
-			e.preventDefault();
+			
 			if(e.touches.length > 1) {
+				e.preventDefault();
 				var f0 = {x:e.touches[0].pageX, y:e.touches[0].pageY};
 				var f1 = {x:e.touches[1].pageX, y:e.touches[1].pageY};
 				that.angle = that.newAngle;
