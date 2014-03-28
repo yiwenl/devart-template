@@ -20,7 +20,7 @@ https://www.youtube.com/watch?v=SxgplYYbB7M
 
 ## Bring in the actors
 
-With the model rigged, we then organised a session with two physical actors, [Alex Luttley](https://www.facebook.com/alexander.luttley.9, "Alex Luttley") and [Nanna Gunnars](https://www.facebook.com/nannagunnars, "Nanna Gunnars") to come and perform in front of a Kinect camera for us and see what we could record.
+With the model rigged, we then organised a session with two physical actors, [Alex Luttley](https://www.facebook.com/alexander.luttley.9) and [Nanna Gunnars](https://www.facebook.com/nannagunnars) to come and perform in front of a Kinect camera for us and see what we could record.
 
 The results are here:
 
